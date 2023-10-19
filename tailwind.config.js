@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'f-font': '#5e5e5e',
+        'f-font-meta': '#919191',
+      },
+      boxShadow: {
+        'f-shadow': '0 0 4px rgba(0,0,0,.1)',
+      },
+    },
   },
   plugins: [],
 }

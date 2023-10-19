@@ -1,13 +1,15 @@
 import Topbar from './components/Topbar'
 import Hero from './components/Hero'
-import Featured from './components/Featured'
+import FeaturedProjects from './components/FeaturedProjects'
+import FreelanceProjects from './components/FreelanceProjects'
 
 export default function App() {
     return (
         <>
             <Topbar />
             <Hero />
-            <Featured />
+            <FeaturedProjects />
+            <FreelanceProjects />
         </>
     )
 }
