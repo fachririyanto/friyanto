@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'f-font': '#5e5e5e',
-        'f-font-meta': '#919191',
+        'f-font': '#3e3e3e',
+        'f-font-meta': '#777',
         'f-border': '#c9c9c9',
       },
       boxShadow: {

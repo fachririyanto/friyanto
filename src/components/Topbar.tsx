@@ -1,7 +1,7 @@
 export default function Topbar() {
     return (
         <header className="h-20">
-            <nav className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(255,255,255,.98)]">
+            <nav className="fixed z-50 top-0 left-0 right-0 h-20">
                 <div className="flex px-6 h-full items-center">
                     <h1 className="flex-grow font-extrabold text-4xl uppercase">
                         <a href="">FR</a>

@@ -18,11 +18,11 @@
         "tech": ["WordPress"]
     },
     {
-        "id": "keladi-tikus",
-        "title": "Food Biotechnology Research Center",
+        "id": "buzz",
+        "title": "BINUS BUZZ",
         "meta": "WordPress",
         "description": "",
-        "url": "https://research.binus.ac.id/fbrc/",
+        "url": "https://binus.ac.id/buzz",
         "featured": "",
         "tech": ["WordPress"]
     },
@@ -54,6 +54,15 @@
         "tech": ["WordPress"]
     },
     {
+        "id": "satu-univ",
+        "title": "SATU University",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://satu.ac.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
         "id": "satu-parent",
         "title": "SATU University - Parent",
         "meta": "WordPress",
@@ -72,20 +81,11 @@
         "tech": ["WordPress"]
     },
     {
-        "id": "satu-univ",
-        "title": "SATU University",
+        "id": "keladi-tikus",
+        "title": "Food Biotechnology Research Center",
         "meta": "WordPress",
         "description": "",
-        "url": "https://satu.ac.id",
-        "featured": "",
-        "tech": ["WordPress"]
-    },
-    {
-        "id": "buzz",
-        "title": "BINUS BUZZ",
-        "meta": "WordPress",
-        "description": "",
-        "url": "https://binus.ac.id/buzz",
+        "url": "https://research.binus.ac.id/fbrc/",
         "featured": "",
         "tech": ["WordPress"]
     },
@@ -164,7 +164,7 @@
     {
         "id": "binus-tv-virtual-lab",
         "title": "BINUS TV - Virtual Lab",
-        "meta": "WordPress",
+        "meta": "WordPress / 360 Image",
         "description": "",
         "url": "https://www.binus.tv/virtual-lab-alsut/360/",
         "featured": "",

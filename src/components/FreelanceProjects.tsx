@@ -25,7 +25,7 @@ export default function FreelanceProjects() {
                                     alt={ post.title }
                                     rounded="rounded"
                                 />
-                                <div className="py-5 px-4">
+                                <div className="pt-5 pb-2.5 px-4">
                                     <h3 className="font-semibold text-lg">
                                         { post.title }
                                     </h3>

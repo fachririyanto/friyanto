@@ -7,7 +7,7 @@ export default function Hero() {
                         <figure className="mx-auto max-w-[140px] md:max-w-[200px] rounded-full border-2 border-black">
                             <img src="/favicon-270x270.png" alt="Fachri Riyanto" className="block w-full" />
                         </figure>
-                        <h2 className="mt-5 font-semibold text-xl md:text-2xl">Fachri Riyanto</h2>
+                        <h2 className="mt-5 font-bold text-xl md:text-2xl">Fachri Riyanto</h2>
                         <p className="mt-1 text-base">Senior Frontend Developer</p>
                         <p className="mt-1">
                             <a href="mailto:fachririyanto@gmail.com" className="underline">fachririyanto@gmail.com</a>
