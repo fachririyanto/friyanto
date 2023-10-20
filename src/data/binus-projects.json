@@ -1,0 +1,290 @@
+[
+    {
+        "id": "bbs-ibm",
+        "title": "BINUS Business School - International Business Management",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://bbs.binus.ac.id/ibm",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "digital-lab",
+        "title": "Digital Lab 360",
+        "meta": "WordPress / Image 360",
+        "description": "",
+        "url": "https://architecture.binus.ac.id/digital-lab/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "keladi-tikus",
+        "title": "Food Biotechnology Research Center",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://research.binus.ac.id/fbrc/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-kemanggisan",
+        "title": "BINUS Kemanggisan",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/kemanggisan/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-launchpad",
+        "title": "BINUS Launchpad",
+        "meta": "WordPress / Multilingual",
+        "description": "",
+        "url": "https://binus.ac.id/launchpad/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-english",
+        "title": "BINUS English Department",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://english.binus.ac.id/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "satu-parent",
+        "title": "SATU University - Parent",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://satu.ac.id/parent",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "satu-admissions",
+        "title": "SATU University - Admissions",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://satu.ac.id/admissions",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "satu-univ",
+        "title": "SATU University",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://satu.ac.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "buzz",
+        "title": "BINUS BUZZ",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/buzz",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-malang-dbi",
+        "title": "BINUS Malang - Digital Business Innovation",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/malang/digital-business-innovation/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-dkv-asedas",
+        "title": "BINUS Semarang DKV - ASEDAS",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/semarang/dkv/asedas",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "base-are",
+        "title": "BASE - Automotive & Robotics Engineering",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://base.binus.ac.id/automotive-robotics-engineering",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "base-pde",
+        "title": "BASE - Product Design Engineering",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://base.binus.ac.id/product-design-engineering",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "base-be",
+        "title": "BASE - Business Engineering",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://base.binus.ac.id/business-engineering",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-scholar",
+        "title": "BINUS Scholar",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://scholar.binus.ac.id/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-event",
+        "title": "BINUS Event",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://event.binus.ac.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-school",
+        "title": "BINUS SCHOOL Education",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.sch.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-tv-virtual-lab",
+        "title": "BINUS TV - Virtual Lab",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://www.binus.tv/virtual-lab-alsut/360/",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-tv",
+        "title": "BINUS TV",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://www.binus.tv",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-admissions",
+        "title": "BINUS Admissions",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.edu/admissions",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-bandung-manawafest",
+        "title": "BINUS Bandung - Manawafest 2022",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/bandung/creativepreneurship/manawafest-2022",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-bandung-creativepreneurship",
+        "title": "BINUS Bandung - Creativepreneurship",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/bandung/creativepreneurship",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-bandung",
+        "title": "BINUS Bandung",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/bandung",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-beyond-reality",
+        "title": "BINUS Beyond Reality 2022",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://ca.binus.ac.id/beyond-reality",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-inacade",
+        "title": "BINUS INACADE 2021",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://sod.binus.ac.id/inacade-2021",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-prakerja",
+        "title": "BINUS Prakerja",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binuscenter.com/prakerja",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "ikabinus",
+        "title": "IKA BINUS",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://ikabinus.or.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "abpptsi",
+        "title": "AB PPTSI",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://abpptsi.org",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-sokrates",
+        "title": "Sokrates",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://sokrates.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-center",
+        "title": "BINUS Center",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binuscenter.com",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-hiveindo",
+        "title": "BINUS Hiveindo",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/hiveindo",
+        "featured": "",
+        "tech": ["WordPress"]
+    }
+]

@@ -3,7 +3,7 @@ export default function Topbar() {
         <header className="h-20">
             <nav className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(255,255,255,.98)]">
                 <div className="flex px-6 h-full items-center">
-                    <h1 className="flex-grow font-semibold text-4xl uppercase">
+                    <h1 className="flex-grow font-extrabold text-4xl uppercase">
                         <a href="">FR</a>
                     </h1>
                     <div className="pl-8">

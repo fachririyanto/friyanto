@@ -17,6 +17,9 @@
 .container.wide {
     @apply max-w-[1400px];
 }
+.container.full {
+    @apply max-w-[1920px];
+}
 
 .text-editor a {
     @apply underline;
