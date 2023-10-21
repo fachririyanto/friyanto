@@ -12,7 +12,7 @@ export function Project(post: TypeProject) {
                         src={ post.featured }
                         alt={ post.title }
                         rounded="rounded"
-                        objectPosition="object-left-top" />
+                        objectposition="object-left-top" />
                 </div>
             </div>
             <div className="w-full md:w-1/3 self-center">

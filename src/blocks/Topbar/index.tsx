@@ -1,3 +1,5 @@
+import { NavLink } from './NavLink'
+
 export default function Topbar() {
     return (
         <header className="h-20">
@@ -7,13 +9,16 @@ export default function Topbar() {
                         <a href="">FR</a>
                     </h1>
                     <div className="pl-8">
-                        <ul className="flex gap-8">
-                            <li>
-                                <a href="https://www.linkedin.com/in/friyanto/" className="block font-semibold text-sm py-3 md:text-base hover:underline">Linkedin</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/fachririyanto" className="block font-semibold text-sm py-3 md:text-base hover:underline">Github</a>
-                            </li>
+                        <ul className="flex gap-5 md:gap-8">
+                            <NavLink href="https://medium.com/@fachririyanto/" target="_blank">
+                                Medium
+                            </NavLink>
+                            <NavLink href="https://www.linkedin.com/in/friyanto/" target="_blank">
+                                Linkedin
+                            </NavLink>
+                            <NavLink href="https://github.com/fachririyanto" target="_blank">
+                                Github
+                            </NavLink>
                         </ul>
                     </div>
                 </div>

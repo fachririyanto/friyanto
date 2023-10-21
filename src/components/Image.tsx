@@ -5,7 +5,7 @@ interface PropsImage extends React.ImgHTMLAttributes<HTMLImageElement> {
     ratioheight: number,
     bgcolor?: string,
     rounded?: string,
-    objectPosition?: string,
+    objectposition?: string,
 }
 
 const defaultProps: PropsImage = {
@@ -13,7 +13,7 @@ const defaultProps: PropsImage = {
     ratioheight: 1,
     bgcolor: 'bg-white',
     rounded: '',
-    objectPosition: 'object-center',
+    objectposition: 'object-center',
 }
 
 export function ImageCover(props: PropsImage) {
@@ -26,7 +26,7 @@ export function ImageCover(props: PropsImage) {
             backgroundColor: config.bgcolor,
         }}>
             <picture className="flex absolute inset-0">
-                { props.src ? <img { ...props } className={ `block w-full h-full object-cover ${config.objectPosition}` } /> : null }
+                { props.src ? <img { ...props } className={ `block w-full h-full object-cover ${config.objectposition}` } /> : null }
             </picture>
         </figure>
     )
