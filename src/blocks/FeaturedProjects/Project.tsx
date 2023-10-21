@@ -1,13 +1,20 @@
 import type { TypeProject } from "../../types/Project"
+import { ImageCover } from '../../components/Image'
 
 export function Project(post: TypeProject) {
     return (
         <div className="flex flex-wrap md:flex-nowrap">
-            <figure className="w-full md:w-2/3 md:pr-10 xl:pr-16">
-                <picture className="block p-2 overflow-hidden bg-white rounded-lg shadow-f-shadow">
-                    <img loading="lazy" src={ post.featured } alt={ post.title } className="block w-full rounded-md" />
-                </picture>
-            </figure>
+            <div className="w-full md:w-2/3 md:pr-10 xl:pr-16">
+                <div className="block p-2 overflow-hidden bg-white rounded-lg shadow-f-shadow">
+                    <ImageCover
+                        ratiowidth={ 2245 }
+                        ratioheight={ 1400 }
+                        src={ post.featured }
+                        alt={ post.title }
+                        rounded="rounded"
+                        objectPosition="object-left-top" />
+                </div>
+            </div>
             <div className="w-full md:w-1/3 self-center">
                 <div className="md:max-w-[540px]">
                     <h4 className="mb-1 font-medium text-f-font-meta">{ post.meta }</h4>

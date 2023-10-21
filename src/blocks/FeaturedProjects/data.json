@@ -3,7 +3,7 @@
         "id": "3d-annotation",
         "title": "3D Annotation System",
         "meta": "Prototype",
-        "description": "This is one of features of my Initiatif Project (<a target='_blank' href='https://binus.ac.id/3digibees/'>3Digibees</a>) for BINUS. It's a 3D Annotation system using <a target='_blank' href='https://modelviewer.dev/'>Model-Viewer</a>. The feature is just a prototype, because the real project need you to login using BINUS account to use the features.",
+        "description": "This is one of new features of my Initiative Project (<a target='_blank' href='https://binus.ac.id/3digibees/'>3Digibees</a>) for BINUS. It's a 3D Annotation system using <a target='_blank' href='https://modelviewer.dev/'>Model-Viewer</a>. This is just a prototype, because the real project need you to login using BINUS account to use the features.",
         "url": "https://react-3d-annotation.vercel.app/",
         "featured": "/images/portfolio/3d-annotation.png",
         "tech": ["React", "TypeScript", "Model-Viewer", "Tailwind"]
@@ -11,10 +11,19 @@
     {
         "id": "3digibees",
         "title": "3Digibees",
-        "meta": "Prototype",
-        "description": "This is one of features of my Initiatif Project (<a target='_blank' href='https://binus.ac.id/3digibees/'>3Digibees</a>) for BINUS. It's a 3D Annotation system using <a target='_blank' href='https://modelviewer.dev/'>Model-Viewer</a>. The feature is just a prototype, because the real project need you to login using BINUS account to use the features.",
-        "url": "https://react-3d-annotation.vercel.app/",
-        "featured": "/images/portfolio/3d-annotation.png",
-        "tech": ["React", "TypeScript", "Model-Viewer", "Tailwind"]
+        "meta": "Initiative Project",
+        "description": "Website repository for 3D models like <a href='https://sketchfab.com/' target='_blank'>Sketchfab</a>. This website is one of my initiative project for BINUS University. Binusian can upload their 3D models and share it using iframe code like Youtube.",
+        "url": "https://binus.ac.id/3digibees/",
+        "featured": "/images/portfolio/3digibees.png",
+        "tech": ["WordPress", "BabylonJS (3D Viewer)", "REST API", "jQuery", "CSS/SASS"]
+    },
+    {
+        "id": "binus-bootstrap",
+        "title": "BINUS Bootstrap",
+        "meta": "CSS Framework",
+        "description": "",
+        "url": "https://dmd.binus.ac.id/frontend/binus-design/",
+        "featured": "/images/portfolio/binus-bootstrap.png",
+        "tech": ["HTML", "CSS/SASS", "JavaScript/jQuery", "Grunt"]
     }
 ]
