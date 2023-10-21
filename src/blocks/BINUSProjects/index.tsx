@@ -6,7 +6,7 @@ export default function BINUSProjects() {
         <section className="py-8 md:py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 md:flex-nowrap md:gap-0 md:mb-10 lg:mb-16">
-                    <h2 className="w-full font-extrabold text-[40px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:w-auto md:pr-10 md:text-[64px]">
+                    <h2 className="w-full font-extrabold text-[48px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:w-auto md:pr-10 md:text-[64px]">
                         BINUS<br/>Projects
                     </h2>
                     <div className="w-full md:pl-10 md:self-end">

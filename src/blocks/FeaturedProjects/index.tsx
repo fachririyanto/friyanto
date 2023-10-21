@@ -31,7 +31,7 @@ export default function Featured() {
         <section className="py-8 md:py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 items-center md:gap-0 md:mb-10 lg:mb-16">
-                    <h2 className="w-full font-extrabold text-[40px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:text-[64px] md:w-auto md:pr-10">
+                    <h2 className="w-full font-extrabold text-[48px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:text-[64px] md:w-auto md:pr-10">
                         Featured<br/>
                         Projects
                     </h2>
@@ -50,7 +50,7 @@ export default function Featured() {
                 <div className="-mx-2">
                     <Carousel items={ carouselItems } />
                 </div>
-                <div className="flex gap-1.5 mt-4 md:hidden">
+                <div className="flex gap-1.5 mt-4 justify-end md:hidden">
                     <ButtonNav onClick={ onPrevious } disabled={ currentIndex <= 0 ? true : false }>
                         <span className="material-symbols-outlined text-3xl md:text-4xl">arrow_back</span>
                     </ButtonNav>

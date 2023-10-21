@@ -7,7 +7,7 @@ export default function FreelanceProjects() {
         <section className="py-8 md:py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="mb-8 md:mb-10 lg:mb-16">
-                    <h2 className="font-extrabold text-[40px] leading-[0.76] uppercase md:text-[64px]">
+                    <h2 className="font-extrabold text-[48px] leading-[0.76] uppercase md:text-[64px]">
                         Freelance<br/>Projects
                     </h2>
                 </header>
