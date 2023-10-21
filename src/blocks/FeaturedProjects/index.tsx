@@ -28,26 +28,36 @@ export default function Featured() {
     })
 
     return (
-        <section className="py-16 md:py-20">
-            <div className="container full">
-                <div className="container">
-                    <header className="flex mb-16 items-center">
-                        <h2 className="pr-10 font-extrabold text-5xl leading-[0.76] uppercase border-r border-f-border md:text-[64px]">
-                            Featured<br/>
-                            Projects
-                        </h2>
-                        <div className="flex flex-grow gap-2 pl-10">
-                            <ButtonNav onClick={ onPrevious } disabled={ currentIndex <= 0 ? true : false }>
-                                <span className="material-symbols-outlined text-4xl">arrow_back</span>
-                            </ButtonNav>
-                            <ButtonNav onClick={ onNext } disabled={ currentIndex >= (Posts.length - 1) ? true : false }>
-                                <span className="material-symbols-outlined text-4xl">arrow_forward</span>
-                            </ButtonNav>
-                        </div>
-                    </header>
-                </div>
+        <section className="py-8 md:py-12 lg:py-16 xl:py-20">
+            <div className="container">
+                <header className="flex flex-wrap gap-4 mb-6 items-center md:gap-0 md:mb-10 lg:mb-16">
+                    <h2 className="w-full font-extrabold text-[40px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:text-[64px] md:w-auto md:pr-10">
+                        Featured<br/>
+                        Projects
+                    </h2>
+                    <div className="hidden md:flex flex-grow gap-2 md:pl-10 md:w-auto">
+                        <ButtonNav onClick={ onPrevious } disabled={ currentIndex <= 0 ? true : false }>
+                            <span className="material-symbols-outlined text-3xl md:text-4xl">arrow_back</span>
+                        </ButtonNav>
+                        <ButtonNav onClick={ onNext } disabled={ currentIndex >= (Posts.length - 1) ? true : false }>
+                            <span className="material-symbols-outlined text-3xl md:text-4xl">arrow_forward</span>
+                        </ButtonNav>
+                    </div>
+                </header>
+            </div>
 
-                <Carousel items={ carouselItems } />
+            <div className="container full">
+                <div className="-mx-2">
+                    <Carousel items={ carouselItems } />
+                </div>
+                <div className="flex gap-1.5 mt-4 md:hidden">
+                    <ButtonNav onClick={ onPrevious } disabled={ currentIndex <= 0 ? true : false }>
+                        <span className="material-symbols-outlined text-3xl md:text-4xl">arrow_back</span>
+                    </ButtonNav>
+                    <ButtonNav onClick={ onNext } disabled={ currentIndex >= (Posts.length - 1) ? true : false }>
+                        <span className="material-symbols-outlined text-3xl md:text-4xl">arrow_forward</span>
+                    </ButtonNav>
+                </div>
             </div>
         </section>
     )
