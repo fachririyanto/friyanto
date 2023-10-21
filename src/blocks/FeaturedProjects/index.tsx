@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { useCarousel, Carousel } from '../../components/Carousel'
 import Posts from './data.json'
 import { TypeProject } from '../../types/Project'
@@ -28,7 +29,7 @@ export default function Featured() {
     })
 
     return (
-        <section className="py-8 md:py-12 lg:py-16 xl:py-20">
+        <motion.section initial={{ y: 40 }} animate={{ y: 0 }} transition={{ duration: 2, ease: [0.32, 0.72, 0, 1] }} className="py-8 md:py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 items-center md:gap-0 md:mb-10 lg:mb-16">
                     <h2 className="w-full font-extrabold text-[48px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:text-[64px] md:w-auto md:pr-10">
@@ -59,6 +60,6 @@ export default function Featured() {
                     </ButtonNav>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }

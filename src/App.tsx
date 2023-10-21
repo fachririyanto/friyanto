@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { CarouselProvider } from './components/Carousel'
 
 import Topbar from './blocks/Topbar'
@@ -8,7 +9,13 @@ import FreelanceProjects from './blocks/FreelanceProjects'
 import BINUSProjects from './blocks/BINUSProjects'
 
 export default function App() {
-    return (
+    const [isLoading, setIsLoading] = useState(true)
+
+    useEffect(() => {
+        setIsLoading(false)
+    }, [])
+
+    return isLoading ? null : (
         <>
             <Topbar />
             <Hero />

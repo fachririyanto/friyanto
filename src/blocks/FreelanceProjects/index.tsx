@@ -33,7 +33,7 @@ export default function FreelanceProjects() {
                                         { post.meta }
                                     </p>
                                     <p className="flex gap-2 mt-6 md:mt-10 font-semibold uppercase text-xs md:text-sm items-center justify-end">
-                                        Visit Website <span className="material-symbols-outlined text-lg">arrow_forward</span>
+                                        Visit Website <span className="material-symbols-outlined relative z-20 text-2xl">arrow_forward</span>
                                     </p>
                                 </div>
                                 <a target="_blank" href={ post.url } className="absolute inset-0 z-10">
