@@ -162,6 +162,15 @@
         "tech": ["WordPress"]
     },
     {
+        "id": "binus-gallery",
+        "title": "BINUS Gallery (Multi Users)",
+        "meta": "WordPress / Custom Backend",
+        "description": "",
+        "url": "https://binus.ac.id/gallery",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
         "id": "binus-tv-virtual-lab",
         "title": "BINUS TV - Virtual Lab",
         "meta": "WordPress / 360 Image",
@@ -189,6 +198,42 @@
         "tech": ["WordPress"]
     },
     {
+        "id": "binus-gog",
+        "title": "Good Organization Governance (GOG)",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://www.binus.edu/gog/en",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-akreditasi",
+        "title": "BINUS Akreditasi",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/akreditasi",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-international",
+        "title": "BINUS International",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://international.binus.ac.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-pmr",
+        "title": "Parents Meet Rector",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/parents-meet-rector",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
         "id": "binus-bandung-manawafest",
         "title": "BINUS Bandung - Manawafest 2022",
         "meta": "WordPress",
@@ -212,6 +257,33 @@
         "meta": "WordPress",
         "description": "",
         "url": "https://binus.ac.id/bandung",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-semarang",
+        "title": "BINUS Semarang",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/semarang",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-bekasi",
+        "title": "BINUS Bekasi",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/bekasi",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "binus-malang",
+        "title": "BINUS Malang",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://binus.ac.id/malang",
         "featured": "",
         "tech": ["WordPress"]
     },

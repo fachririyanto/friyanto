@@ -7,5 +7,14 @@
         "url": "https://react-3d-annotation.vercel.app/",
         "featured": "/images/portfolio/3d-annotation.png",
         "tech": ["React", "TypeScript", "Model-Viewer", "Tailwind"]
+    },
+    {
+        "id": "3digibees",
+        "title": "3Digibees",
+        "meta": "Prototype",
+        "description": "This is one of features of my Initiatif Project (<a target='_blank' href='https://binus.ac.id/3digibees/'>3Digibees</a>) for BINUS. It's a 3D Annotation system using <a target='_blank' href='https://modelviewer.dev/'>Model-Viewer</a>. The feature is just a prototype, because the real project need you to login using BINUS account to use the features.",
+        "url": "https://react-3d-annotation.vercel.app/",
+        "featured": "/images/portfolio/3d-annotation.png",
+        "tech": ["React", "TypeScript", "Model-Viewer", "Tailwind"]
     }
 ]

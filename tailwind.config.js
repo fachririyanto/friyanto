@@ -14,6 +14,9 @@ export default {
       boxShadow: {
         'f-shadow': '0 0 4px rgba(0,0,0,.1)',
       },
+      lineHeight: {
+        'relaxed': '1.75'
+      }
     },
   },
   plugins: [],

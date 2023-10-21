@@ -1,5 +1,5 @@
-import Posts from '../data/binus-projects.json'
-import { TypeProject } from '../types/Project'
+import Posts from './data.json'
+import { TypeProject } from '../../types/Project'
 
 export default function BINUSProjects() {
     return (
@@ -10,7 +10,7 @@ export default function BINUSProjects() {
                         BINUS<br/>Projects
                     </h2>
                     <div className="pl-10 self-end">
-                        <div className="max-w-[540px] text-lg">
+                        <div className="max-w-[540px] font-medium text-lg">
                             Maintenance and supports over 500+ websites for BINUS University and its subsidiaries. I already build hundreds of them.
                         </div>
                     </div>
@@ -30,7 +30,7 @@ export default function BINUSProjects() {
                                     </p>
                                 </div>
                                 <div>
-                                    <span className="material-symbols-outlined text-2xl">arrow_forward</span>
+                                    <span className="material-symbols-outlined text-2xl font-medium">arrow_forward</span>
                                 </div>
                                 <a target="_blank" href={ post.url } className="absolute inset-0 z-10">
                                     <span className="sr-only">{ post.title }</span>

@@ -1,19 +1,26 @@
-import Topbar from './components/Topbar'
-import Hero from './components/Hero'
-import FeaturedProjects from './components/FeaturedProjects'
-import FreelanceProjects from './components/FreelanceProjects'
-import BINUSProjects from './components/BINUSProjects'
-import ContactMe from './components/ContactMe'
+import { CarouselProvider } from './components/Carousel'
+
+import Topbar from './blocks/Topbar'
+import Hero from './blocks/Hero'
+import ContactMe from './blocks/ContactMe'
+import FeaturedProjects from './blocks/FeaturedProjects'
+import FreelanceProjects from './blocks/FreelanceProjects'
+import BINUSProjects from './blocks/BINUSProjects'
 
 export default function App() {
     return (
         <>
             <Topbar />
             <Hero />
-            <FeaturedProjects />
+
+            <CarouselProvider>
+                <FeaturedProjects />
+            </CarouselProvider>
+
             <FreelanceProjects />
             <BINUSProjects />
             <ContactMe />
         </>
     )
 }
+

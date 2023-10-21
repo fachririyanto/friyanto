@@ -1,6 +1,6 @@
-import Posts from '../data/freelance-projects.json'
-import { TypeProject } from '../types/Project'
-import { ImageCover } from './Atomic/Image'
+import Posts from './data.json'
+import { TypeProject } from '../../types/Project'
+import { ImageCover } from '../../components/Image'
 
 export default function FreelanceProjects() {
     return (
@@ -19,8 +19,8 @@ export default function FreelanceProjects() {
                             <div className="relative p-2 h-full rounded-lg bg-white overflow-hidden shadow-f-shadow">
                                 <ImageCover
                                     src={ post.featured }
-                                    ratioWidth={ 3 }
-                                    ratioHeight={ 2 }
+                                    ratiowidth={ 3 }
+                                    ratioheight={ 2 }
                                     loading="lazy"
                                     alt={ post.title }
                                     rounded="rounded"
