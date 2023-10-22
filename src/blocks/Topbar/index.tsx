@@ -4,7 +4,7 @@ import { NavLink } from './NavLink'
 export default function Topbar() {
     return (
         <header className="h-20">
-            <motion.nav initial={{ y: -80 }} animate={{ y: 0 }} transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }} className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(255,255,255,.5)]">
+            <motion.nav initial={{ opacity: 0, y: -80 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }} className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(255,255,255,.5)]">
                 <div className="flex px-6 h-full items-center">
                     <h1 className="flex-grow font-extrabold text-4xl uppercase">
                         <a href="">FR</a>

@@ -7,14 +7,14 @@ export default function Hero() {
                 <div className="flex flex-wrap gap-8 md:flex-nowrap md:gap-0">
                     <div className="w-full md:w-[340px] md:min-w-[340px] text-center">
                         <motion.div
-                            initial={{ opacity: 0, scale: 0 }}
+                            initial={{ opacity: 0, scale: .4 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{
                                 duration: 1,
                                 ease: [0, 0.71, 0.2, 1.01]
                             }}
                             >
-                            <figure className="mx-auto max-w-[140px] md:max-w-[200px] rounded-full border-2 border-black">
+                            <figure className="mx-auto max-w-[140px] md:max-w-[200px] rounded-full bg-white border-2 border-black">
                                 <img src="/favicon-270x270.png" alt="Fachri Riyanto" className="block w-full" />
                             </figure>
                         </motion.div>
