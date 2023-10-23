@@ -10,8 +10,8 @@
     },
     {
         "id": "digital-lab",
-        "title": "Digital Lab 360",
-        "meta": "WordPress / Image 360",
+        "title": "Digital Lab Virtual Tour",
+        "meta": "WordPress / PannellumJS",
         "description": "",
         "url": "https://architecture.binus.ac.id/digital-lab/",
         "featured": "",
@@ -173,7 +173,7 @@
     {
         "id": "binus-tv-virtual-lab",
         "title": "BINUS TV - Virtual Lab",
-        "meta": "WordPress / 360 Image",
+        "meta": "WordPress / PannellumJS",
         "description": "",
         "url": "https://www.binus.tv/virtual-lab-alsut/360/",
         "featured": "",
