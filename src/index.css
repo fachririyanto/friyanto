@@ -8,8 +8,6 @@
     }
     body {
         @apply text-f-font bg-[#F5F7F8];
-        background-image: radial-gradient(#5e5e5e 0.5px, #F5F7F8 0.5px);
-        background-size: 14px 14px;
     }
 }
 
