@@ -4,7 +4,7 @@
         "title": "BINUS Digital Museum",
         "meta": "Kioks Information",
         "description": "A kiosk information about BINUS Digital Museum. Best view in resolution 1920x1080 pixels because it would show in the big screen (55 inch, Android TV) at BINUS Alam Sutera.",
-        "url": "https://beta.binus.ac.id/museum/",
+        "url": "https://binus-digital-museum.vercel.app/",
         "featured": "/images/portfolio/binus-digital-museum.png",
         "tech": ["WordPress", "REST API", "React", "TypeScript", "TimelineJS", "Tailwind CSS", "Android Launcher (Kotlin)"]
     },
