@@ -20,17 +20,17 @@
     {
         "id": "3digibees",
         "title": "3Digibees",
-        "meta": "Initiative Project",
+        "meta": "3D Assets Repository",
         "description": "A website for 3D assets repository, similar to <a href='https://sketchfab.com/' target='_blank'>Sketchfab</a>, where Binusian users can upload their 3D models, add annotations, share them using an iframe code similar to YouTube, and view them in AR.",
         "url": "https://binus.ac.id/3digibees/",
         "featured": "/images/portfolio/3digibees.png",
-        "tech": ["WordPress", "Modelviewer", "REST API", "jQuery", "CSS/SASS"]
+        "tech": ["WordPress", "REST API", "PHP", "Modelviewer", "jQuery", "CSS/SASS/Tailwind CSS"]
     },
     {
         "id": "binus-bootstrap",
         "title": "BINUS Bootstrap",
         "meta": "CSS Framework",
-        "description": "A CSS Framework like Twitter Bootstrap used for building apps in BINUS University.",
+        "description": "A CSS framework similar to Twitter Bootstrap is used for building apps at BINUS University.",
         "url": "https://dmd.binus.ac.id/frontend/binus-design/",
         "featured": "/images/portfolio/binus-bootstrap.png",
         "tech": ["HTML", "CSS/SASS", "JavaScript/jQuery", "Grunt"]
