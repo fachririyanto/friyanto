@@ -21,7 +21,7 @@
         "id": "3digibees",
         "title": "3Digibees",
         "meta": "Initiative Project",
-        "description": "Website 3D Assets Repository like <a href='https://sketchfab.com/' target='_blank'>Sketchfab</a>. Binusian can upload their 3D models, add an annotations and share it using iframe code like Youtube.",
+        "description": "A website for 3D assets repository, similar to <a href='https://sketchfab.com/' target='_blank'>Sketchfab</a>, where Binusian users can upload their 3D models, add annotations, share them using an iframe code similar to YouTube, and view them in AR.",
         "url": "https://binus.ac.id/3digibees/",
         "featured": "/images/portfolio/3digibees.png",
         "tech": ["WordPress", "Modelviewer", "REST API", "jQuery", "CSS/SASS"]
