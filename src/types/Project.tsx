@@ -6,4 +6,5 @@ export type TypeProject = {
     url: string,
     featured: string,
     tech: string[],
+    text_demo?: string,
 }

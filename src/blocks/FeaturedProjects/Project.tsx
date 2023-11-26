@@ -29,12 +29,16 @@ export function Project(post: TypeProject) {
                             <strong>Tech Stack:</strong><br/>
                             { post.tech.join(', ') }
                         </p>
-                        <p>
-                            <strong>Demo:</strong><br/>
-                            <a target="blank" href={ post.url } className="underline">
-                                { post.url }
-                            </a>
-                        </p>
+                        { post.url === '' ? null : (
+                            <>
+                                <p>
+                                    <strong>{ post.text_demo }</strong><br/>
+                                    <a target="blank" href={ post.url }>
+                                        { post.url }
+                                    </a>
+                                </p>
+                            </>
+                        ) }
                     </div>
                 </div>
             </div>

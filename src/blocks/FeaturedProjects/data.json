@@ -2,37 +2,31 @@
     {
         "id": "binus-digital-museum",
         "title": "BINUS Digital Museum",
-        "meta": "Kioks Information",
-        "description": "An information kiosk about BINUS Digital Museum. It is best viewed at a resolution of 1920x1080 pixels as it will be displayed on a large 55-inch Android TV screen at BINUS Alam Sutera.",
-        "url": "https://binus-digital-museum.vercel.app/",
+        "meta": "Information Kioks",
+        "description": "An information kiosk about memorabilia items, peoples, or stories in BINUS University. It is best viewed at a resolution of 1920x1080 pixels as it will be displayed on a large 55-inch Android TV screen at BINUS Alam Sutera, but it also support mobile screen.",
+        "url": "https://binus.edu/digital-museum/",
         "featured": "/images/portfolio/binus-digital-museum.png",
-        "tech": ["WordPress", "REST API", "React", "TypeScript", "TimelineJS", "Tailwind CSS", "Android Launcher (Kotlin)"]
-    },
-    {
-        "id": "3d-annotation",
-        "title": "3D Annotation System",
-        "meta": "Prototype",
-        "description": "This is one of new features of my Initiative Project (<a target='_blank' href='https://binus.ac.id/3digibees/'>3Digibees</a>) for BINUS. It's a 3D Annotation system using <a target='_blank' href='https://modelviewer.dev/'>Modelviewer</a>. This is just a prototype, because the real project need you to login using BINUS account to use the features.",
-        "url": "https://react-3d-annotation.vercel.app/",
-        "featured": "/images/portfolio/3d-annotation.png",
-        "tech": ["React", "TypeScript", "Modelviewer", "Tailwind CSS"]
+        "tech": ["WordPress", "REST API", "React", "TypeScript", "TimelineJS", "Tailwind CSS"],
+        "text_demo": "Website:"
     },
     {
         "id": "3digibees",
         "title": "3Digibees",
         "meta": "3D Assets Repository",
-        "description": "A website for 3D assets repository, similar to <a href='https://sketchfab.com/' target='_blank'>Sketchfab</a>, where Binusian users can upload their 3D models, add annotations, share them using an iframe code similar to YouTube, and view them in AR.",
+        "description": "A website for 3D assets repository similar to <a href='https://sketchfab.com/' target='_blank'>Sketchfab</a>, where Binusian users can upload their 3D models, add annotations, share them using an iframe code similar to YouTube, and view them in AR. The live demo need you to login, but you can try the annotation feature <a target='_blank' href='https://react-3d-annotation.vercel.app/'>here.</a>",
         "url": "https://binus.ac.id/3digibees/",
         "featured": "/images/portfolio/3digibees.png",
-        "tech": ["WordPress", "REST API", "PHP", "Modelviewer", "jQuery", "CSS/SASS/Tailwind CSS"]
+        "tech": ["WordPress", "REST API", "PHP", "Modelviewer", "jQuery", "React", "CSS/SASS/Tailwind CSS"],
+        "text_demo": "Website:"
     },
     {
         "id": "binus-bootstrap",
         "title": "BINUS Bootstrap",
         "meta": "CSS Framework",
         "description": "A CSS framework similar to Twitter Bootstrap is used for building apps at BINUS University.",
-        "url": "https://dmd.binus.ac.id/frontend/binus-design/",
+        "url": "",
         "featured": "/images/portfolio/binus-bootstrap.png",
-        "tech": ["HTML", "CSS/SASS", "JavaScript/jQuery", "Grunt"]
+        "tech": ["HTML", "CSS/SASS", "JavaScript/jQuery", "Grunt"],
+        "text_demo": "Website:"
     }
 ]

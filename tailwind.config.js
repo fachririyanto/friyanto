@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'f-black': '#3e3e3e',
         'f-font': '#3e3e3e',
         'f-font-meta': '#777',
         'f-border': '#c9c9c9',

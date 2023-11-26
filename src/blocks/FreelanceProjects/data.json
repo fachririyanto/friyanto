@@ -18,6 +18,24 @@
         "tech": ["WordPress", "Elementor"]
     },
     {
+        "id": "beasiswa-kreatif",
+        "title": "Beasiswa Kreatif",
+        "meta": "WordPress",
+        "description": "",
+        "url": "",
+        "featured": "/images/portfolio/beasiswa-kreatif.png",
+        "tech": ["WordPress"]
+    },
+    {
+        "id": "codecert",
+        "title": "CodeCert",
+        "meta": "Figma to HTML/CSS (Tailwind)",
+        "description": "",
+        "url": "",
+        "featured": "/images/portfolio/codecert.jpg",
+        "tech": ["Figma to HTML/CSS (Tailwind)"]
+    },
+    {
         "id": "pt-intan",
         "title": "PT Intan Saran Teknik",
         "meta": "WordPress",
