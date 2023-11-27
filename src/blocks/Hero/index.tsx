@@ -19,7 +19,7 @@ export default function Hero() {
                 </div>
                 <div className="mt-6 mx-auto max-w-[640px] text-center">
                     <h1 className="text-[80px] font-semibold leading-[0.8]">Fachri Riyanto</h1>
-                    <p className="mt-8 text-xl">
+                    <p className="mt-8 text-xl leading-normal">
                         Fullstack Developer who build applications using PHP, MySQL, WordPress, Laravel, Python (Flask), JavaScript, TypeScript, and React.
                     </p>
                     <p className="flex flex-wrap gap-6 mt-8 items-center justify-center">

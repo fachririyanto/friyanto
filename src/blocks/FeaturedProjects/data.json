@@ -3,7 +3,7 @@
         "id": "binus-digital-museum",
         "title": "BINUS Digital Museum",
         "meta": "Information Kioks",
-        "description": "An information kiosk about memorabilia items, peoples, or stories in BINUS University. It is best viewed at a resolution of 1920x1080 pixels as it will be displayed on a large 55-inch Android TV screen at BINUS Alam Sutera, but it also support mobile screen.",
+        "description": "An information kiosk about memorabilia items, peoples, and stories in BINUS University. It is best viewed at a resolution of 1920x1080 pixels as it will be displayed on a large 55-inch Android TV screen at BINUS Alam Sutera, but it also support mobile screen.",
         "url": "https://binus.edu/digital-museum/",
         "featured": "/images/portfolio/binus-digital-museum.png",
         "tech": ["WordPress", "REST API", "React", "TypeScript", "TimelineJS", "Tailwind CSS"],
