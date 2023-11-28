@@ -13,7 +13,7 @@ export default function Hero() {
                     <div className="inline-flex gap-5 md:gap-3 mx-auto py-3 px-4 bg-[#ddd] rounded-[40px] items-center">
                         <span className="block min-w-[16px] w-4 h-4 rounded-full bg-green-500 animate-ping shadow"></span>
                         <span className="block flex-grow font-medium text-left md:text-center text-sm md:text-base">
-                            I'm looking for a job as a (Mid/Senior) Frontend or Fullstack developer
+                            I'm looking for a job as a (Mid/Senior) Frontend or Fullstack Developer
                         </span>
                     </div>
                 </div>
