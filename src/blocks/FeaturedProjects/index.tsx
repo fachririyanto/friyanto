@@ -34,7 +34,7 @@ export default function Featured() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2, ease: [0.32, 0.72, 0, 1] }}
-            className="py-8 md:py-12 lg:py-16 xl:py-20">
+            className="py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 items-center md:gap-0 md:mb-10 lg:mb-16">
                     <h2 className="w-full font-semibold uppercase text-[48px] leading-[0.8] md:border-r-4 md:border-double md:border-f-border md:text-[64px] md:w-auto md:pr-10">

@@ -4,7 +4,7 @@ import { ImageCover } from '../../components/Image'
 
 export default function FreelanceProjects() {
     return (
-        <section className="py-8 md:py-12 lg:py-16 xl:py-20">
+        <section className="py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="mb-8 md:mb-10 lg:mb-16">
                     <h2 className="font-semibold text-[48px] leading-[0.8] uppercase md:text-[64px]">

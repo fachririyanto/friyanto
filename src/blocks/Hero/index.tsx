@@ -7,7 +7,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
-            className="py-10 md:py-16 lg:pt-20 lg:pb-[120px]">
+            className="py-16 lg:pt-20 lg:pb-[120px]">
             <div className="container">
                 <div className="mb-16 text-center">
                     <div className="inline-flex gap-5 md:gap-3 mx-auto py-3 px-4 bg-[#ddd] rounded-[40px] items-center">

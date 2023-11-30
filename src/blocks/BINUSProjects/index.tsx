@@ -3,7 +3,7 @@ import { TypeProject } from '../../types/Project'
 
 export default function BINUSProjects() {
     return (
-        <section className="py-8 md:py-12 lg:py-16 xl:py-20">
+        <section className="py-12 lg:py-16 xl:py-20">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 md:flex-nowrap md:gap-0 md:mb-10 lg:mb-16">
                     <h2 className="w-full font-semibold text-[48px] leading-[0.76] uppercase md:border-r-4 md:border-double md:border-f-border md:w-auto md:pr-10 md:text-[64px]">
