@@ -6,7 +6,7 @@ export default function ContactMe() {
                     Are you interested to working together with me?
                 </h2>
                 <p className="md:text-lg">
-                    Contact or hire me at <a className="font-semibold underline" href="mailto:fachririyanto@gmail.com">fachririyanto@gmail.com</a>
+                    Contact or hire me at <a className="font-semibold border-b border-f-black" href="mailto:fachririyanto@gmail.com">fachririyanto@gmail.com</a>
                 </p>
                 <p className="mt-16 font-medium text-sm">
                     &copy; 2023 Fachri Riyanto
