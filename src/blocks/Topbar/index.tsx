@@ -11,9 +11,6 @@ export default function Topbar() {
                     </h1>
                     <div className="pl-8">
                         <ul className="flex gap-5 md:gap-8">
-                            <NavLink href="https://medium.com/@fachririyanto/" target="_blank">
-                                Medium
-                            </NavLink>
                             <NavLink href="https://www.linkedin.com/in/friyanto/" target="_blank">
                                 Linkedin
                             </NavLink>
