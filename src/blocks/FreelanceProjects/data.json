@@ -29,20 +29,20 @@
     {
         "id": "indosat-ooredoo-collabonation",
         "title": "Indosat Ooredoo - Collabonation",
-        "meta": "PHP / Laravel Framework",
+        "meta": "PHP / Laravel Framework / jQuery",
         "description": "",
         "url": "",
         "featured": "/images/portfolio/collabonation.png",
-        "tech": ["Laravel Framework"]
+        "tech": ["PHP", "Laravel Framework", "jQuery"]
     },
     {
         "id": "indosat-ooredoo-sales-portal",
         "title": "Indosat Ooredoo - Sales Portal",
-        "meta": "PHP / Laravel Framework",
+        "meta": "PHP / Laravel Framework / jQuery",
         "description": "",
         "url": "",
         "featured": "/images/portfolio/indosat-sales-portal.png",
-        "tech": ["Laravel Framework"]
+        "tech": ["PHP", "Laravel Framework", "jQuery"]
     },
     {
         "id": "codecert",
