@@ -20,6 +20,16 @@
         "text_demo": "Website:"
     },
     {
+        "id": "3d-annotation",
+        "title": "3D Annotation",
+        "meta": "Immersive Learning",
+        "description": "Annotation system for 3D objects using <a href='https://modelviewer.dev/' target='_blank'>Modelviewer</a> library and ReactJS.",
+        "url": "https://react-3d-annotation.vercel.app/",
+        "featured": "/images/portfolio/3d-annotation.png",
+        "tech": ["HTML", "Tailwind CSS", "Modelviewer", "React"],
+        "text_demo": "Live Preview:"
+    },
+    {
         "id": "binus-bootstrap",
         "title": "BINUS Bootstrap",
         "meta": "CSS Framework",

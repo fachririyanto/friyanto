@@ -14,7 +14,7 @@ export default function OpenSourceProjects() {
                     </h2>
                     <div className="w-full md:pl-10 md:self-end">
                         <div className="font-medium md:max-w-[540px] md:text-lg">
-                            Open source projects that I have contributed to in a free time. Learning and exploring new technologies. View more on my <a target="_blank" href="https://github.com/fachririyanto" className="border-b border-f-black">GitHub</a>.
+                            Open source projects that I have contributed to. Learning and exploring new technologies. View more on my <a target="_blank" href="https://github.com/fachririyanto" className="border-b border-f-black">GitHub</a>.
                         </div>
                     </div>
                 </header>
