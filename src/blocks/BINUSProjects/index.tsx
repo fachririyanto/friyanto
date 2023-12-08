@@ -11,7 +11,7 @@ export default function BINUSProjects() {
                     </h2>
                     <div className="w-full md:pl-10 md:self-end">
                         <div className="font-medium md:max-w-[540px] md:text-lg">
-                            Maintenance and supports over 500+ websites for BINUS University using PHP and WordPress. I already build hundreds of them.
+                            Maintenance and supports over 500+ websites for BINUS University using PHP and WordPress. I have already build hundreds of them.
                         </div>
                     </div>
                 </header>
@@ -22,7 +22,7 @@ export default function BINUSProjects() {
                         <div key={ i } className="w-full md:px-3 md:pb-6 md:w-1/2 lg:w-1/3 xl:w-1/4">
                             <div className="flex relative p-4 h-full rounded-lg bg-white overflow-hidden shadow-f-shadow transition-all hover:drop-shadow-md">
                                 <div className="flex-grow pr-5">
-                                    <h3 className="font-semibold text-sm leading-snug md:text-base">
+                                    <h3 className="font-semibold text-sm md:text-base !leading-snug">
                                         { post.title }
                                     </h3>
                                     <p className="mt-1.5 text-sm text-f-font-meta md:text-base">

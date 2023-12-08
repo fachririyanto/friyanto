@@ -24,7 +24,7 @@
         "title": "BINUS Bootstrap",
         "meta": "CSS Framework",
         "description": "A CSS framework similar to Twitter Bootstrap is used for building apps at BINUS University.",
-        "url": "",
+        "url": "https://dmd.binus.ac.id/frontend/binus-design/",
         "featured": "/images/portfolio/binus-bootstrap.png",
         "tech": ["HTML", "CSS/SASS", "JavaScript/jQuery", "Grunt"],
         "text_demo": "Website:"
