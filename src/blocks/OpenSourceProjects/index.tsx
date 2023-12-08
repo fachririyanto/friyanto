@@ -31,11 +31,11 @@ export default function OpenSourceProjects() {
                                 rounded="rounded"
                                 objectposition="object-left-top"
                             />
-                            <div className="flex-grow p-5">
+                            <div className="flex-grow py-4 px-2 md:p-4">
                                 <h3 className="font-semibold text-base md:text-lg !leading-snug">
                                     { post.title }
                                 </h3>
-                                <p className="">
+                                <p className="leading-normal">
                                     { post.description }
                                 </p>
                                 <p className="mt-8 text-right">
@@ -51,11 +51,11 @@ export default function OpenSourceProjects() {
                         <div className="flex flex-wrap gap-4">
                             { Posts.slice(1).map((post, i) => (
                                 <div key={ i } className="block w-full overflow-hidden bg-white rounded-lg shadow-f-shadow">
-                                    <div className="flex-grow p-5">
+                                    <div className="flex-grow p-4 md:p-5">
                                         <h3 className="font-semibold text-base md:text-lg !leading-snug">
                                             { post.title }
                                         </h3>
-                                        <p className="">
+                                        <p className="leading-normal">
                                             { post.description }
                                         </p>
                                         <p className="mt-5 text-right">
@@ -68,8 +68,8 @@ export default function OpenSourceProjects() {
                                 </div>
                             )) }
                         </div>
-                        <div className="mt-8 md:mt-10 text-center">
-                            <a href="https://github.com/fachririyanto" className="inline-flex gap-2 items-center border-b border-f-black">
+                        <div className="mt-6 md:mt-8 text-center">
+                            <a href="https://github.com/fachririyanto" className="inline-flex gap-2 font-semibold items-center border-b border-f-black">
                                 View More Projects
                                 <span className="material-symbols-outlined">arrow_forward</span>
                             </a>
