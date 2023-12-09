@@ -9,6 +9,15 @@
         "tech": ["WordPress"]
     },
     {
+        "id": "nuni",
+        "title": "NUNI",
+        "meta": "WordPress",
+        "description": "",
+        "url": "https://nuni.or.id",
+        "featured": "",
+        "tech": ["WordPress"]
+    },
+    {
         "id": "digital-lab",
         "title": "Digital Lab Virtual Tour",
         "meta": "WordPress / PannellumJS",
@@ -122,15 +131,6 @@
         "meta": "WordPress",
         "description": "",
         "url": "https://base.binus.ac.id/product-design-engineering",
-        "featured": "",
-        "tech": ["WordPress"]
-    },
-    {
-        "id": "base-be",
-        "title": "BASE - Business Engineering",
-        "meta": "WordPress",
-        "description": "",
-        "url": "https://base.binus.ac.id/business-engineering",
         "featured": "",
         "tech": ["WordPress"]
     },
