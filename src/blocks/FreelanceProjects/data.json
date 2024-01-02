@@ -1,14 +1,5 @@
 [
     {
-        "id": "langitgarindo",
-        "title": "[Coming Soon] PT Langit Garindo",
-        "meta": "WordPress",
-        "description": "",
-        "url": "https://www.langitgarindo.co.id/preview/",
-        "featured": "/images/portfolio/langitgarindo.png",
-        "tech": ["WordPress"]
-    },
-    {
         "id": "senadi",
         "title": "Yayasan Senadi",
         "meta": "WordPress / Elementor",
