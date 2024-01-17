@@ -9,14 +9,6 @@ export default function Hero() {
             transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
             className="py-16 lg:pt-20 lg:pb-[120px]">
             <div className="container">
-                <div className="mb-16 text-center">
-                    <div className="inline-flex gap-5 md:gap-3 mx-auto py-3 px-4 bg-[#ddd] rounded-[40px] items-center">
-                        <span className="block min-w-[16px] w-4 h-4 rounded-full bg-green-500 animate-ping shadow"></span>
-                        <span className="block flex-grow font-medium text-left md:text-center text-sm md:text-base">
-                            I'm looking for a job as a (Mid/Senior) Frontend or Fullstack Developer
-                        </span>
-                    </div>
-                </div>
                 <div className="mt-6 mx-auto max-w-[640px] text-center">
                     <h1 className="text-[80px] font-semibold leading-[0.8]">Fachri Riyanto</h1>
                     <p className="mt-8 text-xl leading-normal">
