@@ -45,8 +45,8 @@ export default function WorkingAtICSCompute() {
                         <h3 className="mb-1 text-xl font-semibold">// Work 01.</h3>
                         <h2 className="mb-6 text-2xl md:text-3xl lg:text-4xl">Redpumpkin.Ai Websites</h2>
                         <p className="text-lg leading-relaxed">
-                            I build three Redpumpkin.Ai websites from scratch, there are <Link to="https://redpumpkin.ai" target="_blank" className="border-b border-black font-semibold">redpumpkin.ai</Link>, <Link to="https://aica.redpumpkin.ai" target="_blank" className="border-b border-black font-semibold">aica.redpumpkin.ai</Link>, and <Link to="https://aiap.redpumpkin.ai" target="_blank" className="border-b border-black font-semibold">aiap.redpumpkin.ai</Link>.
-                            My role in this project is start from designing UI/UX, developing the website using NextJS and TailwindCSS, until deploying the website into AWS Lightsail.
+                            I build all Redpumpkin.Ai websites from scratch, there are <Link to="https://redpumpkin.ai" target="_blank" className="border-b border-black font-semibold">redpumpkin.ai</Link>, <Link to="https://aica.redpumpkin.ai" target="_blank" className="border-b border-black font-semibold">aica.redpumpkin.ai</Link>, and <Link to="https://aiap.redpumpkin.ai" target="_blank" className="border-b border-black font-semibold">aiap.redpumpkin.ai</Link>.
+                            My role in this project included everything from designing UI/UX, developing the website using NextJS and TailwindCSS, to deploying the website on AWS Lightsail.
                         </p>
                     </div>
                     <figure className="mt-8 p-2 bg-white shadow-base rounded-lg">
@@ -99,13 +99,13 @@ export default function WorkingAtICSCompute() {
                         <h3 className="mb-1 text-xl font-semibold">// Work 03.</h3>
                         <h2 className="mb-6 text-2xl md:text-3xl lg:text-4xl">Redpumpkin GenAI Virtual Assistant Prototype with AWS Bedrock</h2>
                         <p className="text-lg leading-relaxed">
-                            I take an initiative to create a prototype of a GenAI virtual assistant app that can help answer the customer questions based on the knowledge base, with no knowledge about the GenAI app development before (like prompting, RAG, and about LLM it self). It took me a month to build the prototype.
+                            I took the initiative to create a prototype of a GenAI virtual assistant app that can help answer the customer questions based on the knowledge base, with no knowledge about the GenAI app development before (like prompting, RAG, and about LLM it self). It took me a month to build the prototype.
                         </p>
                         <p className="mt-6 text-lg leading-relaxed">
                             I build the prototype using NextJS, TailwindCSS, Supabase as a database and vector database (with pgvector plugin), Python (FastAPI) and Langchain for RAG, and AWS Bedrock for managed embedding models and LLMs.
                         </p>
                         <p className="mt-6 text-lg leading-relaxed">
-                            I am doing all the things such as think about the prototype idea, UI/UX, database schema, front end coding (backend helped by Supabase SDK), RAG, integrating with AWS Bedrock, and also deploy the front end to Vercel and RAG API to AWS EC2, setup with tmux and nginx.
+                            I handled almost everything, including the prototype idea, UI/UX design, database schema, front-end coding (with backend support from the Supabase SDK), RAG implementation, integration with AWS Bedrock, as well as deploying the front end to Vercel and the RAG API to AWS EC2, setup with tmux and nginx.
                         </p>
                     </div>
                     <figure className="mt-8 p-2 bg-white shadow-base rounded-lg">
@@ -124,7 +124,7 @@ export default function WorkingAtICSCompute() {
                         <h3 className="mb-1 text-xl font-semibold">// Work 04.</h3>
                         <h2 className="mb-6 text-2xl md:text-3xl lg:text-4xl">Achieved AWS GenAI Competency</h2>
                         <p className="text-lg leading-relaxed">
-                            Contributed to helping the team achieve AWS GenAI Competency by creating a GenAI application prototype and writing documentation about the app, Responsible AI, and more.
+                            Contributed to the team's achievement of AWS GenAI Competency by creating a GenAI application prototype and writing documentation on the app, Responsible AI, and more.
                         </p>
                         <p className="mt-6 text-lg leading-relaxed">
                             Pak Budhi&apos;s (Our Founder &amp; CEO) post on LinkedIn:<br />
