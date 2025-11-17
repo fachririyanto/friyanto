@@ -8,9 +8,6 @@
     "start": "next start",
     "lint": "eslint"
   },
-  "engines": {
-    "node": "22.x"
-  },
   "dependencies": {
     "@next/third-parties": "^16.0.3",
     "@radix-ui/react-slot": "^1.2.4",
@@ -26,7 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^22",
+    "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
