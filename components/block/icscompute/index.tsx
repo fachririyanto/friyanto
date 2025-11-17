@@ -3,17 +3,22 @@ import { ArrowRight } from "lucide-react";
 
 import { ImageCover } from "@/components/custom/image";
 
-import type { FreelancePost } from "./types";
+import type { RedpumpkinPost } from "./types";
 import { data } from "./data";
 
-export function Freelance() {
+export function ICSCompute() {
     return (
         <section className="py-10 md:py-12 lg:py-16">
             <div className="container">
-                <header className="mb-8 md:mb-10 lg:mb-12">
-                    <h2 className="font-georgia text-[40px] leading-[0.8] uppercase -tracking-[1px] md:text-[54px] lg:text-[64px]">
-                        Freelance<br/>Work
+                <header className="flex flex-wrap gap-4 mb-6 md:flex-nowrap md:gap-0 md:mb-10 lg:mb-12">
+                    <h2 className="w-full font-georgia text-[40px] leading-[0.76] uppercase -tracking-[1px] md:border-r-4 md:border-double md:border-line-gray md:w-auto md:pr-10 md:text-[54px] lg:text-[64px]">
+                        Redpumpkin<br/>Work
                     </h2>
+                    <div className="w-full md:pl-10 md:self-end">
+                        <div className="font-medium md:max-w-[540px] md:text-lg">
+                            After almost 10 years working at <Link href="https://binus.ac.id" target="_blank" className="border-b border-black font-medium">BINUS University</Link>. Now I am working as Front End Developer at <Link href="https://www.icscompute.com" target="_blank" className="border-b border-black font-medium">ICS Compute</Link>, focusing on developing their Generative AI product, <Link href="https://redpumpkin.ai" target="_blank" className="border-b border-black font-medium">Redpumpkin.AI</Link>.
+                        </div>
+                    </div>
                 </header>
             </div>
             <div className="container wide">
@@ -29,7 +34,7 @@ export function Freelance() {
     );
 }
 
-function PostItem({ item }: { item: FreelancePost; }) {
+function PostItem({ item }: { item: RedpumpkinPost; }) {
     return (
         <div className="w-full md:px-4 md:pb-8 md:w-1/2 lg:w-1/3">
             <div className="relative p-2 h-full rounded-lg bg-background overflow-hidden shadow transition-all hover:drop-shadow-lg">

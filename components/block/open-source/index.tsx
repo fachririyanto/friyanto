@@ -58,22 +58,23 @@ function BigPostItem({ item }: { item: OpenSourcePost; }) {
                 alt={item.title}
                 rounded="rounded"
                 objectposition="object-left-top"
+                loading="lazy"
             />
             <div className="flex-grow py-4 px-2 md:p-4">
-                <h3 className="font-semibold text-base md:text-lg !leading-snug">
+                <h3 className="font-medium text-base md:text-lg !leading-snug">
                     {item.title}
                 </h3>
-                <p className="leading-normal">
+                <p className="text-muted-foreground leading-normal">
                     {item.description}
                 </p>
                 <p className="mt-8 text-right">
                     <Link
                         href={item.url}
                         target="_blank"
-                        className={buttonVariants({ variant: "default", className: "gap-2 !h-11 !pl-5 pr-3 !rounded-[40px]" })}
+                        className="inline-flex gap-2 items-center"
                         >
-                        <span>View Source</span>
-                        <ArrowRight className="w-5 h-5" />
+                        <span className="font-medium">View Source</span>
+                        <ArrowRight className="w-5 h-5 -rotate-45" />
                     </Link>
                 </p>
             </div>
@@ -85,20 +86,20 @@ function PostItem({ item }: { item: OpenSourcePost; }) {
     return (
         <div className="block w-full overflow-hidden bg-white rounded-lg shadow">
             <div className="flex-grow p-4 md:p-5">
-                <h3 className="font-semibold text-base md:text-lg !leading-snug">
+                <h3 className="font-medium text-base md:text-lg !leading-snug">
                     {item.title}
                 </h3>
-                <p className="leading-normal">
+                <p className="text-muted-foreground leading-normal">
                     {item.description}
                 </p>
                 <p className="mt-5 text-right">
                     <Link
                         href={item.url}
                         target="_blank"
-                        className={buttonVariants({ variant: "default", className: "gap-2 !h-11 !pl-5 pr-3 !rounded-[40px]" })}
+                        className="inline-flex gap-2 items-center"
                         >
-                        <span>View Source</span>
-                        <ArrowRight className="w-5 h-5" />
+                        <span className="font-medium">View Source</span>
+                        <ArrowRight className="w-5 h-5 -rotate-45" />
                     </Link>
                 </p>
             </div>

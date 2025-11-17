@@ -41,6 +41,7 @@ function CarouselItem({ item }: { item: FeaturedPost; }) {
                         alt={item.title}
                         rounded="rounded"
                         objectposition="object-left-top"
+                        loading="lazy"
                     />
                 </div>
             </div>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/block/header";
 import { Hero } from "@/components/block/hero";
 import { Featured } from "@/components/block/featured";
+import { ICSCompute } from "@/components/block/icscompute";
 import { Freelance } from "@/components/block/freelance";
 import { OpenSource } from "@/components/block/open-source";
 import { BINUS } from "@/components/block/binus";
@@ -18,6 +19,7 @@ export default function Page() {
             <Header />
             <Hero />
             <Featured />
+            <ICSCompute />
             <Freelance />
             <OpenSource />
             <BINUS />

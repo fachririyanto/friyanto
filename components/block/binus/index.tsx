@@ -40,10 +40,10 @@ function PostItem({ item }: { item: BINUSPost; }) {
         <div className="w-full md:px-3 md:pb-6 md:w-1/2 lg:w-1/3 xl:w-1/4">
             <div className="flex relative p-4 h-full rounded-lg bg-background overflow-hidden shadow transition-all hover:drop-shadow-md">
                 <div className="flex-grow pr-5">
-                    <h3 className="font-semibold text-sm md:text-base !leading-snug">
+                    <h3 className="font-medium text-sm md:text-base !leading-snug">
                         {item.title}
                     </h3>
-                    <p className="mt-1.5 text-sm text-font-meta md:text-base">
+                    <p className="mt-0.5 text-sm text-muted-foreground md:text-base">
                         {item.meta}
                     </p>
                 </div>
