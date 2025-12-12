@@ -24,7 +24,7 @@ export const data: RedpumpkinPost[] = [
         "title": "Redpumpkin Crossword x Soka Gakkai Wahid Foundation",
         "meta": "UI/UX, NextJS, Tailwind & Supabase",
         "description": "",
-        "url": "https://crossword.redpumpkin.ai/",
+        "url": "https://redpumpkin-crossword.vercel.app/",
         "featured": "/images/portfolio/redpumpkin-crossword.png",
         "tech": ["NextJS", "UI/UX", "Tailwind", "Supabase"]
     },
