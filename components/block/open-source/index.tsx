@@ -12,12 +12,12 @@ export function OpenSource() {
         <section className="py-10 md:py-12 lg:py-16">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 md:flex-nowrap md:gap-0 md:mb-10 lg:mb-12">
-                    <h2 className="w-full font-georgia text-[40px] leading-[0.76] uppercase -tracking-[1px] md:border-r-4 md:border-double md:border-line-gray md:w-auto md:pr-10 md:text-[54px] lg:text-[64px]">
+                    <h2 className="w-full font-serif text-[40px] leading-[0.76] uppercase -tracking-[1px] md:border-r-4 md:border-double md:border-line-gray md:w-auto md:pr-10 md:text-[54px] lg:text-[64px]">
                         Open<br/>Source
                     </h2>
                     <div className="w-full md:pl-10 md:self-end">
-                        <div className="font-medium md:max-w-[540px] md:text-lg">
-                            Building and documenting small open-source projects as I explore new technologies. Browse them on my <a target="_blank" href="https://github.com/fachririyanto" className="border-b border-black">GitHub</a>.
+                        <div className="md:max-w-[540px] md:text-lg">
+                            Building and documenting small open-source projects as I explore new technologies. Browse them on my <a target="_blank" href="https://github.com/fachririyanto" className="font-medium border-b border-black">GitHub</a>.
                         </div>
                     </div>
                 </header>
@@ -38,7 +38,7 @@ export function OpenSource() {
                         <div className="mt-6 md:mt-8 text-center">
                             <Link href="https://github.com/fachririyanto" className="inline-flex gap-2 font-medium items-center border-b border-black">
                                 View More Source
-                                <ArrowRight className="w-5 h-5" />
+                                <ArrowRight className="w-5 h-5 -rotate-45" />
                             </Link>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ function BigPostItem({ item }: { item: OpenSourcePost; }) {
                 <h3 className="font-medium text-base md:text-lg !leading-snug">
                     {item.title}
                 </h3>
-                <p className="text-muted-foreground leading-normal">
+                <p className="mt-2 text-muted-foreground">
                     {item.description}
                 </p>
                 <p className="mt-8 text-right">
@@ -89,7 +89,7 @@ function PostItem({ item }: { item: OpenSourcePost; }) {
                 <h3 className="font-medium text-base md:text-lg !leading-snug">
                     {item.title}
                 </h3>
-                <p className="text-muted-foreground leading-normal">
+                <p className="mt-2 text-muted-foreground leading-snug">
                     {item.description}
                 </p>
                 <p className="mt-5 text-right">

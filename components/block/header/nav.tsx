@@ -13,8 +13,8 @@ export function Nav() {
             className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(255,255,255,.9)]"
             >
             <div className="flex px-4 lg:px-6 h-full items-center">
-                <div className="flex-grow font-medium text-4xl uppercase">
-                    <Link href="/">FR</Link>
+                <div className="flex-grow">
+                    <Link href="/" className="font-serif font-medium text-[40px] leading-none uppercase outline-none">FR</Link>
                 </div>
                 <div className="pl-8">
                     <ul className="flex gap-5 md:gap-8">

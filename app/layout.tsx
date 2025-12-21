@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
-import { Source_Serif_4 } from "next/font/google";
+import { EB_Garamond, Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
-const fontSerif = Source_Serif_4({
+const fontSerif = EB_Garamond({
     variable: "--font-serif",
+});
+
+const fontSans = Inter({
+    variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +29,7 @@ export default function RootLayout({
             <head>
                 <link rel="icon" href="/favicon-180x180.png" sizes="180x180" />
             </head>
-            <body className={`${fontSerif.variable} antialiased`}>
+            <body className={`${fontSerif.variable} ${fontSans.variable} antialiased`}>
                 {children}
             </body>
             <GoogleAnalytics gaId="G-1XTC88KYJZ" />

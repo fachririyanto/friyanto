@@ -7,7 +7,7 @@ export function Footer() {
                 <h2 className="mb-16 text-xl md:text-2xl leading-relaxed">
                     Are you interested to working together with me? Contact me at <Link className="font-medium border-b border-black" href="mailto:fachririyanto@gmail.com">fachririyanto@gmail.com</Link>
                 </h2>
-                <p className="pb-10 font-medium text-[15px]">
+                <p className="pb-10 text-sm text-muted-foreground">
                     &copy; Present. Fachri Riyanto.
                 </p>
             </div>

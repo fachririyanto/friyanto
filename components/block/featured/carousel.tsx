@@ -50,7 +50,7 @@ function CarouselItem({ item }: { item: FeaturedPost; }) {
                     <h4 className="mb-0.5 font-normal text-muted-foreground text-sm md:text-base">
                         {item.meta}
                     </h4>
-                    <h2 className="font-normal text-xl md:3xl xl:text-4xl">
+                    <h2 className="font-medium text-xl md:3xl xl:text-4xl">
                         {item.title}
                     </h2>
                     <div className="text-editor mt-4 md:mt-6 font-normal text-sm md:text-base xl:text-lg">
