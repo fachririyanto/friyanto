@@ -2,23 +2,23 @@ import type { OpenSourcePost } from "./types";
 
 export const data: OpenSourcePost[] = [
     {
-        "id": "librarian",
-        "title": "Librarian",
+        "id": "fastapi-auth",
+        "title": "FastAPI Auth",
         "meta": "Open Source",
-        "description": "App for managing a library. Build using Laravel (Inertia), PHP, MySQL, Tailwind CSS, and Vue.",
-        "url": "https://github.com/fachririyanto/librarian",
-        "featured": "/images/portfolio/librarian.png",
-        "tech": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Vue"],
+        "description": "Authentication using FastAPI (Python). Use PostgreSQL as the database and React for frontend.",
+        "url": "https://github.com/fachririyanto/fastapi-auth",
+        "featured": "/images/portfolio/fastapi-auth.png",
+        "tech": ["Python", "FastAPI", "PostgreSQL", "React", "Tailwind", "Shadcn"],
         "text_demo": "Source Code:"
     },
     {
-        "id": "booklink-phyton-flask",
-        "title": "Booklink Phyton Flask",
+        "id": "db-in-docker",
+        "title": "Database in Docker",
         "meta": "Open Source",
-        "description": "Simple app for save a link using Python, Flask, Tailwind CSS and SQLite3.",
-        "url": "https://github.com/fachririyanto/booklink-python-flask",
+        "description": "Setup databases running in Docker (PostgreSQL, MySQL, and MongoDB).",
+        "url": "https://github.com/fachririyanto/db-in-docker",
         "featured": "",
-        "tech": ["Python", "Flask", "SQLite3", "Tailwind CSS"],
+        "tech": ["Docker", "PostgreSQL", "MySQL", "MongoDB"],
         "text_demo": "Source Code:"
     },
     {
