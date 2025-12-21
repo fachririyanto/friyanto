@@ -53,7 +53,7 @@ function CarouselItem({ item }: { item: FeaturedPost; }) {
                     <h2 className="font-medium text-xl md:3xl xl:text-4xl">
                         {item.title}
                     </h2>
-                    <div className="text-editor mt-4 md:mt-6 font-normal text-sm md:text-base xl:text-lg">
+                    <div className="text-editor mt-4 md:mt-6 font-normal text-sm md:text-base">
                         <p className="hidden xl:block md-3 md:mb-5" dangerouslySetInnerHTML={{ __html: item.description }}></p>
                         <p className="mb-3 md:mb-5">
                             <strong>Tech Stack:</strong><br/>
