@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 
 import { Header } from "@/components/block/header";
@@ -18,11 +19,13 @@ export default function Page() {
         <>
             <Header />
             <Hero />
-            <Featured />
-            <ICSCompute />
-            <Freelance />
-            <OpenSource />
-            <BINUS />
+            <Suspense>
+                <Featured />
+                <ICSCompute />
+                <Freelance />
+                <OpenSource />
+                <BINUS />
+            </Suspense>
             <Footer />
         </>
     );
