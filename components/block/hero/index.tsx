@@ -1,18 +1,15 @@
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import { Mail } from "lucide-react";
 
 import { buttonVariants } from "@/components/ui/button";
 import { ButtonMyWork } from "./button-my-work";
 
-const Scene = dynamic(() => import("./scene"));
-
 export function Hero() {
     return (
-        <section className="lg:grid lg:items-center relative py-8 md:py-10 lg:py-12 xl:h-screen">
+        <section className="py-8 md:py-10 lg:py-12">
             <div className="container">
                 <div className="mx-auto pt-10 max-w-[720px] text-center">
-                    <h1 className="text-[48px] md:text-[64px] lg:text-[72px] xl:text-[124px] font-serif leading-[0.8]">
+                    <h1 className="text-[56px] md:text-[72px] lg:text-[84px] xl:text-[124px] font-serif leading-[0.8]">
                         Fachri Riyanto
                     </h1>
                     <p className="mt-6 md:mt-8 px-4 md:text-lg leading-relaxed">
@@ -30,7 +27,6 @@ export function Hero() {
                     </p>
                 </div>
             </div>
-            <Scene />
         </section>
     );
 }
