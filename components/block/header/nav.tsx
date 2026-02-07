@@ -10,7 +10,7 @@ export function Nav() {
             initial={{ opacity: 0, y: -80 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
-            className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(255,255,255,.9)]"
+            className="fixed z-50 top-0 left-0 right-0 h-20 bg-[rgba(248,248,248,.9)]"
             >
             <div className="flex px-4 lg:px-6 h-full items-center">
                 <div className="flex-grow">

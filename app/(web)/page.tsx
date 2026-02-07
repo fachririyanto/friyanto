@@ -10,7 +10,7 @@ import { BINUS } from "@/components/block/binus";
 import { Footer } from "@/components/block/footer";
 
 export const metadata: Metadata = {
-    title: "Fullstack Developer",
+    title: "Full-Stack Developer",
 };
 
 export default function Page() {

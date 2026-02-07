@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         template: "%s - Fachri Riyanto",
         default: "Fachri Riyanto",
     },
-    description: "Fullstack Developer who build applications using HTML5, CSS3, Tailwind, PHP, WordPress, Laravel, Python, FastAPI, JavaScript, jQuery, ReactJS, NextJS, TypeScript, MySQL, PostgreSQL and Docker.",
+    description: "Full-Stack Developer who build applications using HTML5, CSS3, Tailwind, PHP, WordPress, Laravel, Python, FastAPI, JavaScript, jQuery, ReactJS, NextJS, TypeScript, MySQL, PostgreSQL and Docker.",
 };
 
 export default function RootLayout({

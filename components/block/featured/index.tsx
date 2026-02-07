@@ -1,8 +1,10 @@
+import { CarouselProvider } from "@/components/custom/carousel";
 import { ButtonNav, ButtonNavMobile } from "./button-nav";
-import { Carousel } from "./carousel";
+import { FeaturedCarousel } from "./carousel";
 
 export function Featured() {
     return (
+        <CarouselProvider>
         <section className="py-10 md:py-12 lg:py-16" id="block-featured-work">
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 items-center md:gap-0 md:mb-10 lg:mb-12">
@@ -14,11 +16,10 @@ export function Featured() {
                 </header>
             </div>
             <div className="container full">
-                <div className="-mx-2">
-                    <Carousel />
-                </div>
+                <FeaturedCarousel />
                 <ButtonNavMobile />
             </div>
         </section>
+        </CarouselProvider>
     );
 }

@@ -1,29 +1,66 @@
 "use client";
 
+import { useCallback } from "react";
 import Link from "next/link";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 import type { FeaturedPost } from "./types";
-import { data } from "./data";
+import { featured } from "./data";
 
 import { ImageCover } from "@/components/custom/image";
 import {
+    CarouselProvider,
     Carousel,
     CarouselItem,
+    CarouselNavButton,
+    useCarousel,
 } from "@/components/custom/carousel";
 
-export function FeaturedCarousel() {
+export function Featured() {
     return (
-        <div className="relative">
-            <Carousel className="-mx-2">
-                {
-                    data.map((item, key) => (
-                        <CarouselItem key={key}>
-                            <FeaturedItem item={item} />
-                        </CarouselItem>
-                    ))
-                }
-            </Carousel>
-        </div>
+        <CarouselProvider>
+            <div className="relative">
+                <Carousel className="-mx-2">
+                    {
+                        featured.map((item, key) => (
+                            <CarouselItem key={key}>
+                                <FeaturedItem item={item} />
+                            </CarouselItem>
+                        ))
+                    }
+                </Carousel>
+                <FeaturedNav />
+            </div>
+        </CarouselProvider>
+    );
+}
+
+function FeaturedNav() {
+    const { onClickPrev, onClickNext, currentIndex } = useCarousel();
+
+    const handleClickPrev = useCallback(() => {
+        if (currentIndex === 0) {
+            return;
+        }
+        onClickPrev?.();
+    }, [currentIndex, onClickPrev]);
+
+    const handleClickNext = useCallback(() => {
+        if (currentIndex === featured.length - 1) {
+            return;
+        }
+        onClickNext?.();
+    }, [currentIndex, onClickNext]);
+
+    return (
+        <nav className="flex gap-2 mt-2 md:mt-0 md:gap-0 md:absolute md:top-1/2 left-0 right-0 z-10 xl:-mx-7 md:h-0 justify-end md:justify-between">
+            <CarouselNavButton onClick={handleClickPrev} disabled={currentIndex === 0}>
+                <ArrowLeft className="w-6 h-6 md:w-8 md:h-8" />
+            </CarouselNavButton>
+            <CarouselNavButton onClick={handleClickNext} disabled={currentIndex === featured.length - 1}>
+                <ArrowRight className="w-6 h-6 md:w-8 md:h-8" />
+            </CarouselNavButton>
+        </nav>
     );
 }
 
@@ -44,7 +81,7 @@ function FeaturedItem({ item }: { item: FeaturedPost; }) {
                 </div>
             </div>
             <div className="w-full md:w-1/3 self-center">
-                <div className="md:max-w-[540px]">
+                <div className="md:pr-12 md:max-w-[540px]">
                     <h4 className="mb-0.5 font-normal text-muted-foreground text-sm md:text-base">
                         {item.meta}
                     </h4>

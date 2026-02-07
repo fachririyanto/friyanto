@@ -4,6 +4,8 @@ import { ArrowRight } from "lucide-react";
 import type { BINUSPost } from "./types";
 import { data } from "./data";
 
+import { Featured } from "./featured";
+
 export function BINUS() {
     return (
         <section className="py-10 md:py-12 lg:py-16">
@@ -19,16 +21,24 @@ export function BINUS() {
                     </div>
                 </header>
             </div>
-            <div className="container wide">
-                <div className="flex flex-wrap gap-3 md:gap-0 md:-mx-3">
-                    {
-                        data.map((item, key) => (
-                            <PostItem key={key} item={item} />
-                        ))
-                    }
+            <div className="flex flex-col gap-6">
+                <div className="container wide">
+                    <Featured />
                 </div>
-                <div className="mt-6 text-center text-muted-foreground">
-                    And many more... that I can&apos;t list all here
+                <div className="container wide">
+                    <div className="h-px rounded-lg bg-[#eee]"></div>
+                </div>
+                <div className="container wide">
+                    <div className="flex flex-wrap gap-3 md:gap-0 md:-mx-3">
+                        {
+                            data.map((item, key) => (
+                                <PostItem key={key} item={item} />
+                            ))
+                        }
+                    </div>
+                    <div className="mt-6 text-center text-muted-foreground">
+                        And many more... that I can&apos;t list all here
+                    </div>
                 </div>
             </div>
         </section>
