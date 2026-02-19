@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import "./globals.css";
 
 const fontSerif = EB_Garamond({
@@ -31,6 +32,15 @@ export default function RootLayout({
             </head>
             <body className={`${fontSerif.variable} ${fontSans.variable} antialiased`}>
                 {children}
+                <Script
+                    async
+                    id="genaiva-embed-script"
+                    src="https://ai.mataparser.cloud/widget/chat/embed.min.js"
+                    crossOrigin="anonymous"
+                    strategy="afterInteractive"
+                    data-app-id="430c4a0c-de04-4c3d-b178-a59d86cf6d1b"
+                    data-user-id=""
+                ></Script>
             </body>
             <GoogleAnalytics gaId="G-1XTC88KYJZ" />
         </html>
