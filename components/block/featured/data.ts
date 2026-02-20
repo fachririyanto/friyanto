@@ -15,10 +15,10 @@ export const data: FeaturedPost[] = [
         "id": "genai-virtual-assistant",
         "title": "GenAI Virtual Assistant",
         "meta": "AI Product - MVP",
-        "description": "GenAI Virtual Assistant is a AI assistant that helps with tasks like answering questions based on knowledges you provide. You can embed it into your website or app as you can see in this website. Currently in an experimental phase.",
+        "description": "GenAI Virtual Assistant is a platform to build an AI assistant that helps with tasks like answering questions based on knowledges you provide. You can embed it into your website or app as a chat widget as you can see in the bottom-right of this website. Currently in an experimental phase.",
         "url": "https://ai.mataparser.cloud",
         "featured": "/images/portfolio/genai-virtual-assistant.png",
         "tech": ["ReactJS", "Shadcn", "Laravel", "MinIO", "FastAPI", "Celery", "Redis", "PostgreSQL + Pgvector", "Langchain", "Retrieval-Augmented Generation (RAG)", "Docker"],
-        "text_demo": "Website:"
+        "text_demo": "Platform:"
     },
 ];

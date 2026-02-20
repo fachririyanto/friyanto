@@ -37,7 +37,7 @@ export function OpenSource() {
                         </div>
                         <div className="mt-6 md:mt-8 text-center">
                             <Link href="https://github.com/fachririyanto" className="inline-flex gap-2 font-medium items-center border-b border-black">
-                                View More Source
+                                View More Sources
                                 <ArrowRight className="w-5 h-5 -rotate-45" />
                             </Link>
                         </div>
