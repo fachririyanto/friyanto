@@ -141,6 +141,9 @@
     font-family: Georgia, "Source Serif 4", serif;
 }
 
+#genaiva-chat-button:not(.open) > .genai-chat-button-open {
+    @apply !h-14;
+}
 #genaiva-chat-button > img {
     @apply ring-2 ring-offset-2 ring-gray-100 rounded-full shadow-lg;
 }
