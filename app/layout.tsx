@@ -17,18 +17,26 @@ export const metadata: Metadata = {
         template: "%s - Fachri Riyanto",
         default: "Fachri Riyanto",
     },
-    description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who build products using modern technologies, and Vibe Code.",
+    description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who love to build products using modern technologies, and AI vibe code.",
     robots: "index, follow",
     alternates: {
         canonical: "https://friyanto.vercel.app",
     },
     openGraph: {
         title: "Full-Stack Developer - Fachri Riyanto",
-        description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who build products using modern technologies, and Vibe Code.",
+        description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who love to build products using modern technologies, and AI vibe code.",
         url: "https://friyanto.vercel.app",
         siteName: "Fachri Riyanto",
         type: "website",
         locale: "en-ID",
+        images: [
+            {
+                url: "https://friyanto.vercel.app/favicon-270x270.png",
+                width: 270,
+                height: 270,
+                alt: "Fachri Riyanto - Full-Stack Developer",
+            },
+        ],
     },
 };
 
