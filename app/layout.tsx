@@ -17,7 +17,19 @@ export const metadata: Metadata = {
         template: "%s - Fachri Riyanto",
         default: "Fachri Riyanto",
     },
-    description: "Full-Stack Developer who build applications using HTML5, CSS3, Tailwind, PHP, WordPress, Laravel, Python, FastAPI, JavaScript, jQuery, ReactJS, NextJS, TypeScript, MySQL, PostgreSQL and Docker.",
+    description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who build products using modern technologies, and Vibe Code.",
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://friyanto.vercel.app",
+    },
+    openGraph: {
+        title: "Full-Stack Developer - Fachri Riyanto",
+        description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who build products using modern technologies, and Vibe Code.",
+        url: "https://friyanto.vercel.app",
+        siteName: "Fachri Riyanto",
+        type: "website",
+        locale: "en-ID",
+    },
 };
 
 export default function RootLayout({

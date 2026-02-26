@@ -13,7 +13,7 @@ export function Hero() {
                         Fachri Riyanto
                     </h1>
                     <p className="mt-6 md:mt-8 px-4 md:text-lg leading-relaxed">
-                        Full-Stack Developer who build products using HTML5, CSS3, Tailwind, PHP, WordPress, Laravel, Python, FastAPI, JavaScript, jQuery, ReactJS, NextJS, TypeScript, MySQL, PostgreSQL, Supabase and Docker.
+                        Full-Stack Developer who build products using HTML5, CSS3, Tailwind, PHP, WordPress, Laravel, Python, FastAPI, JavaScript, jQuery, ReactJS, NextJS, TypeScript, MySQL, PostgreSQL, Supabase, Docker, and Vibe Code.
                     </p>
                     <p className="flex flex-wrap gap-6 mt-8 items-center justify-center">
                         <Link
