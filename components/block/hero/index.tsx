@@ -9,7 +9,7 @@ export function Hero() {
         <section className="py-8 md:py-10 lg:py-12">
             <div className="container">
                 <div className="mx-auto pt-10 max-w-[720px] text-center">
-                    <h1 className="text-[56px] md:text-[72px] lg:text-[84px] xl:text-[124px] font-serif leading-[0.8]">
+                    <h1 className="text-[72px] md:text-[104px] lg:text-[124px] font-serif leading-[0.8]">
                         Fachri Riyanto
                     </h1>
                     <p className="mt-6 md:mt-8 px-4 md:text-lg leading-relaxed">
