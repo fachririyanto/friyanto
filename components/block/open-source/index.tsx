@@ -1,11 +1,10 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-import { buttonVariants } from "@/components/ui/button";
-import { ImageCover } from "@/components/custom/image";
-
 import type { OpenSourcePost } from "./types";
 import { data } from "./data";
+
+import { ImageCover } from "@/components/custom/image";
 
 export function OpenSource() {
     return (
@@ -50,7 +49,7 @@ export function OpenSource() {
 
 function BigPostItem({ item }: { item: OpenSourcePost; }) {
     return (
-        <div className="block p-2 overflow-hidden bg-white rounded-lg shadow">
+        <div className="block p-2 overflow-hidden bg-background rounded-lg shadow">
             <ImageCover
                 ratiowidth={2245}
                 ratioheight={1400}
@@ -84,7 +83,7 @@ function BigPostItem({ item }: { item: OpenSourcePost; }) {
 
 function PostItem({ item }: { item: OpenSourcePost; }) {
     return (
-        <div className="block w-full overflow-hidden bg-white rounded-lg shadow">
+        <div className="block w-full overflow-hidden bg-background rounded-lg shadow">
             <div className="flex-grow p-4 md:p-5">
                 <h3 className="font-medium text-base md:text-lg !leading-snug">
                     {item.title}

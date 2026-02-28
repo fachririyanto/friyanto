@@ -14,7 +14,7 @@ export function ButtonMyWork() {
     return (
         <button
             type="button"
-            className="relative z-10 md:text-lg border-b border-black"
+            className="relative z-10 md:text-lg border-b border-foreground"
             onClick={onClick}
             >
             Or see my work below

@@ -4,6 +4,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import "./globals.css";
 
+import { ThemeProvider } from "@/components/theme-provider";
+
 const fontSerif = EB_Garamond({
     variable: "--font-serif",
 });
@@ -46,12 +48,19 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <head>
                 <link rel="icon" href="/favicon-180x180.png" sizes="180x180" />
             </head>
             <body className={`${fontSerif.variable} ${fontSans.variable} antialiased`}>
-                {children}
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                    disableTransitionOnChange
+                    >
+                    {children}
+                </ThemeProvider>
                 <Script
                     async
                     id="genaiva-embed-script"

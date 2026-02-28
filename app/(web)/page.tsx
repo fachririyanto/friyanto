@@ -10,6 +10,8 @@ import { OpenSource } from "@/components/block/open-source";
 import { BINUS } from "@/components/block/binus";
 import { Footer } from "@/components/block/footer";
 
+import { BgSceneAnimation } from "@/components/animation";
+
 export const metadata: Metadata = {
     title: "Full-Stack Developer",
 };
@@ -46,14 +48,15 @@ export default function Page() {
             />
             <Header />
             <Hero />
+            <Featured />
             <Suspense>
-                <Featured />
                 <ICSCompute />
                 <Freelance />
                 <OpenSource />
                 <BINUS />
+                <Footer />
+                <BgSceneAnimation />
             </Suspense>
-            <Footer />
         </>
     );
 }

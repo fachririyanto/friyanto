@@ -114,10 +114,10 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply font-sans border-border outline-ring/50;
   }
   body {
-    @apply font-sans bg-[#f8f8f8] text-foreground;
+    @apply bg-[#f8f8f8] text-foreground dark:bg-[#222] dark:text-foreground;
   }
   button {
     @apply cursor-pointer;

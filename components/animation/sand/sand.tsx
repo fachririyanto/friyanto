@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useRef } from "react";
+import React, { useCallback, useEffect, useMemo, useRef } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import * as THREE from "three";
 
@@ -67,29 +67,24 @@ const vertexShader = `
         float inertia = 0.2 + aSize * 0.8; 
 
         // 2. Parting effect (XY Displacement)
-        // Push particles away. 
         pos.xy += dir * force * 2.5 * (1.0 - inertia * 0.5);
 
         // 3. Piling effect (Z Displacement)
-        // Create a ridge at the edge of the cursor influence.
-        // The sin(force * PI) creates a hump peaking at force 0.5 (mid-radius).
         float ridge = sin(force * 3.14159);
         pos.z += ridge * 0.6 * inertia; 
 
         // 4. Base terrain noise
-        // Give the sand a non-flat, natural surface texture
         float terrain = noise(pos.xy * 0.8);
         pos.z += terrain * 0.2;
 
         vec4 mvPosition = modelViewMatrix * vec4(pos, 1.0);
         
         // Size attenuation
-        // Scale up slightly based on ridge to simulate light catching
         gl_PointSize = (6.0 * aSize + ridge * 4.0) * (1.0 / -mvPosition.z);
         
         gl_Position = projectionMatrix * mvPosition;
         
-        vHeight = pos.z; // Pass height to fragment shader
+        vHeight = pos.z;
     }
 `;
 
@@ -112,9 +107,7 @@ const fragmentShader = `
         // Base Color mix
         vec3 color = mix(uColorBase, uColorHighlight, vRandom);
         
-        // Lighting approximation:
-        // Higher particles (ridges) get lighter.
-        // Lower particles (troughs) get darker.
+        // Lighting approximation
         float light = smoothstep(-0.2, 0.6, vHeight);
         color = mix(color * 0.85, color * 1.15, light);
         
@@ -123,17 +116,23 @@ const fragmentShader = `
 `;
 
 export const SandParticles: React.FC<SandProps> = ({
-    particleCount = 100000,
+    particleCount = 15000,
     baseColor = "#E6DBC4",
     highlightColor = "#C8B28E",
 }) => {
     const meshRef = useRef<THREE.Points<THREE.BufferGeometry, THREE.ShaderMaterial>>(null);
-    const { gl } = useThree();
+    const { gl, invalidate } = useThree();
 
     // State for smooth animation
-    const mousePosition = useRef(new THREE.Vector3(100, 100, 0)); // Start far away
+    const mousePosition = useRef(new THREE.Vector3(100, 100, 0));
     const targetMousePosition = useRef(new THREE.Vector3(100, 100, 0));
     const isHovering = useRef(false);
+    // Track whether the animation has settled so we can stop rendering
+    const isAnimating = useRef(false);
+    // Throttle pointer events
+    const lastPointerTime = useRef(0);
+    // Normalized pointer (-1 to 1) computed from window events
+    const normalizedPointer = useRef({ x: 0, y: 0 });
 
     // Initialize Uniforms
     const uniforms = useMemo(() => ({
@@ -143,24 +142,41 @@ export const SandParticles: React.FC<SandProps> = ({
         uColorHighlight: { value: new THREE.Color(highlightColor) },
     }), [baseColor, highlightColor]);
 
-    // Use window listeners to ensure interaction works even over UI overlays
+    // Throttled pointer handler - only process every 32ms (~30hz input)
+    // Computes normalized pointer from screen coords so it works through pointer-events-none
+    const onPointerMove = useCallback((e: PointerEvent) => {
+        const now = performance.now();
+        if (now - lastPointerTime.current < 32) return;
+        lastPointerTime.current = now;
+
+        // Convert screen coords to normalized (-1 to 1) relative to the canvas
+        const canvas = gl.domElement;
+        const rect = canvas.getBoundingClientRect();
+        normalizedPointer.current.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+        normalizedPointer.current.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+
+        isHovering.current = true;
+        isAnimating.current = true;
+        invalidate(); // Request a new frame
+    }, [gl, invalidate]);
+
+    const onPointerLeaveWindow = useCallback((e: MouseEvent) => {
+        if (!e.relatedTarget) {
+            isHovering.current = false;
+            isAnimating.current = true;
+            invalidate();
+        }
+    }, [invalidate]);
+
     useEffect(() => {
-        const onPointerMove = (e: PointerEvent) => {
-            isHovering.current = true;
-        };
-
-        const onPointerLeaveWindow = (e: MouseEvent) => {
-            if (!e.relatedTarget) isHovering.current = false;
-        };
-
-        window.addEventListener("pointermove", onPointerMove);
+        window.addEventListener("pointermove", onPointerMove, { passive: true });
         window.addEventListener("mouseout", onPointerLeaveWindow);
 
         return () => {
             window.removeEventListener("pointermove", onPointerMove);
             window.removeEventListener("mouseout", onPointerLeaveWindow);
         };
-    }, [gl]);
+    }, [gl, onPointerMove, onPointerLeaveWindow]);
 
     // Generate Particle Data
     const particleAttributes = useMemo(() => {
@@ -193,27 +209,39 @@ export const SandParticles: React.FC<SandProps> = ({
 
     useFrame((state) => {
         if (!meshRef.current) return;
-        
-        const { clock, pointer, viewport } = state;
-        
+
+        // Only update when animating
+        if (!isAnimating.current) return;
+
+        const { clock, viewport } = state;
+
         // Update Time
         meshRef.current.material.uniforms.uTime.value = clock.getElapsedTime();
-        
-        // Calculate Target Position
+
+        // Calculate Target Position using normalized pointer from window events
         if (isHovering.current) {
-            const x = (pointer.x * viewport.width) / 2;
-            const y = (pointer.y * viewport.height) / 2;
+            const x = (normalizedPointer.current.x * viewport.width) / 2;
+            const y = (normalizedPointer.current.y * viewport.height) / 2;
             targetMousePosition.current.set(x, y, 0);
         } else {
-            // Reset to far away if not hovering
             targetMousePosition.current.set(100, 100, 0);
         }
 
-        // Smooth Lerp (Linear Interpolation) for realistic delay/weight
-        // 0.08 = slightly heavier feel than before
+        // Smooth Lerp
         mousePosition.current.lerp(targetMousePosition.current, 0.08);
-
         meshRef.current.material.uniforms.uMouse.value.copy(mousePosition.current);
+
+        // Check if animation has settled (mouse far away and lerp converged)
+        const distToTarget = mousePosition.current.distanceTo(targetMousePosition.current);
+        if (!isHovering.current && distToTarget < 0.01) {
+            // Snap to target and stop animating
+            mousePosition.current.copy(targetMousePosition.current);
+            meshRef.current.material.uniforms.uMouse.value.copy(mousePosition.current);
+            isAnimating.current = false;
+        } else {
+            // Keep requesting frames while animating
+            state.invalidate();
+        }
     });
 
     return (
@@ -232,17 +260,13 @@ export const SandParticles: React.FC<SandProps> = ({
                     args={[particleAttributes.aSize.array, particleAttributes.aSize.itemSize]}
                 />
             </bufferGeometry>
-            {/* 
-                @ts-ignore 
-                Changed to NormalBlending for better visibility on light background
-            */}
             <shaderMaterial
                 vertexShader={vertexShader}
                 fragmentShader={fragmentShader}
                 uniforms={uniforms}
                 transparent={true}
                 depthWrite={false}
-                blending={THREE.NormalBlending} 
+                blending={THREE.NormalBlending}
             />
         </points>
     );

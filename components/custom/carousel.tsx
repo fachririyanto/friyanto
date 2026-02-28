@@ -87,7 +87,7 @@ export function CarouselNavButton({
                 type="button"
                 onClick={onClick}
                 className={cn(
-                    "inline-flex w-12 h-12 md:w-16 md:h-16 items-center justify-center bg-white border-2 border-black rounded-full shadow-base",
+                    "inline-flex w-12 h-12 md:w-16 md:h-16 items-center justify-center bg-background border-2 border-black rounded-full shadow-base",
                     disabled && "opacity-50 pointer-events-none",
                 )}
                 >

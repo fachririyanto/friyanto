@@ -26,7 +26,7 @@ export function BINUS() {
                     <Featured />
                 </div>
                 <div className="container wide">
-                    <div className="h-px rounded-lg bg-[#eee]"></div>
+                    <div className="h-px rounded-lg bg-[#eee] dark:bg-[#282828]"></div>
                 </div>
                 <div className="container wide">
                     <div className="flex flex-wrap gap-3 md:gap-0 md:-mx-3">

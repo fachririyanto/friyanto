@@ -30,6 +30,11 @@ export function ICSCompute() {
                     }
                 </div>
             </div>
+            <div className="container !max-w-[840px]">
+                <p className="mt-6 leading-relaxed">
+                    Besides the list above, there are other projects that cannot be mentioned here because of NDA or it's still on PoC (Proof of Concept). I do some work such as create a web dashboard that integrate with API, build an embeded chat script to show it in customer website, create Redpumpkin UI Kit in Storybook, setup Keycloak for Redpumpkin Suite project, and build an OCR API to extract data from PDF into Excel using ModelArk from BytePlus (AI Engineer work).
+                </p>
+            </div>
         </section>
     );
 }
