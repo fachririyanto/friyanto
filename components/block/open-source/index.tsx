@@ -16,7 +16,7 @@ export function OpenSource() {
                     </h2>
                     <div className="w-full md:pl-10 md:self-end">
                         <div className="md:max-w-[540px] md:text-lg">
-                            Building and documenting small open-source projects as I explore new technologies. Browse them on my <a target="_blank" href="https://github.com/fachririyanto" className="font-medium border-b border-black">GitHub</a>.
+                            Building and documenting open-source projects as I explore new technologies. Browse them on my <a target="_blank" href="https://github.com/fachririyanto" className="font-medium border-b border-black">GitHub</a>.
                         </div>
                     </div>
                 </header>

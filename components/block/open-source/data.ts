@@ -12,13 +12,23 @@ export const data: OpenSourcePost[] = [
         "text_demo": "Source Code:"
     },
     {
+        "id": "keycloak-sso-app",
+        "title": "Keycloak SSO App",
+        "meta": "Open Source",
+        "description": "A simple application that demonstrates how to use Keycloak for Single Sign-On (SSO) authentication. Frontend using React and backend available with FastAPI and Elysia framework.",
+        "url": "https://github.com/fachririyanto/keycloak-sso-app",
+        "featured": "",
+        "tech": ["Keycloak", "React", "FastAPI", "Elysia", "Docker"],
+        "text_demo": "Source Code:"
+    },
+    {
         "id": "db-in-docker",
         "title": "Database in Docker",
         "meta": "Open Source",
-        "description": "Setup databases running in Docker (PostgreSQL, MySQL, and MongoDB).",
+        "description": "Setup database to running in Docker. Available for PostgreSQL, MySQL, MongoDB, and Redis.",
         "url": "https://github.com/fachririyanto/db-in-docker",
         "featured": "",
-        "tech": ["Docker", "PostgreSQL", "MySQL", "MongoDB"],
+        "tech": ["Docker", "PostgreSQL", "MySQL", "MongoDB", "Redis"],
         "text_demo": "Source Code:"
     },
     {
@@ -29,16 +39,6 @@ export const data: OpenSourcePost[] = [
         "url": "https://github.com/fachririyanto/docker-php",
         "featured": "",
         "tech": ["Docker", "PHP", "MySQL", "Apache", "Linux"],
-        "text_demo": "Source Code:"
-    },
-    {
-        "id": "lurik",
-        "title": "Lurik",
-        "meta": "Open Source",
-        "description": "A configurational framework for creating a modular static web templates. Build using HTML, CSS/SASS, JavaScript, JSON, and Grunt.",
-        "url": "https://github.com/fachririyanto/lurik",
-        "featured": "",
-        "tech": ["HTML", "CSS/SASS", "JavaScript", "JSON", "Grunt"],
         "text_demo": "Source Code:"
     }
 ];
