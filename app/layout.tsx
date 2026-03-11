@@ -71,7 +71,7 @@ export default function RootLayout({
                     data-user-id=""
                 ></Script>
             </body>
-            <GoogleAnalytics gaId="G-1XTC88KYJZ" />
+            <GoogleAnalytics gaId="G-ETZ1VZBTCQ" />
         </html>
     );
 }
