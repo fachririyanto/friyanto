@@ -1,6 +1,8 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 
+import { SITE_URL } from "@/lib/config";
+
 import { Header } from "@/components/block/header";
 import { Hero } from "@/components/block/hero";
 import { Featured } from "@/components/block/featured";
@@ -27,8 +29,8 @@ export default function Page() {
                         "@context": "https://schema.org",
                         "@type": "Person",
                         "name": "Fachri Riyanto",
-                        "url": "https://friyanto.vercel.app",
-                        "logo": "https://friyanto.vercel.app/favicon-270x270.png",
+                        "url": SITE_URL,
+                        "logo": `${SITE_URL}/favicon-270x270.png`,
                         "description": "Hi, i'm Fachri Riyanto, Full-Stack Developer who love to build products using modern technologies, and AI vibe code.",
                         "sameAs": [
                             "https://www.linkedin.com/in/friyanto/",

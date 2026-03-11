@@ -4,6 +4,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import "./globals.css";
 
+import { SITE_URL } from "@/lib/config";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const fontSerif = EB_Garamond({
@@ -22,18 +23,18 @@ export const metadata: Metadata = {
     description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who love to build products using modern technologies, and AI vibe code.",
     robots: "index, follow",
     alternates: {
-        canonical: "https://friyanto.vercel.app",
+        canonical: SITE_URL,
     },
     openGraph: {
         title: "Full-Stack Developer - Fachri Riyanto",
         description: "Hi, i'm Fachri Riyanto, Full-Stack Developer who love to build products using modern technologies, and AI vibe code.",
-        url: "https://friyanto.vercel.app",
+        url: SITE_URL,
         siteName: "Fachri Riyanto",
         type: "website",
         locale: "en-ID",
         images: [
             {
-                url: "https://friyanto.vercel.app/favicon-270x270.png",
+                url: `${SITE_URL}/favicon-270x270.png`,
                 width: 270,
                 height: 270,
                 alt: "Fachri Riyanto - Full-Stack Developer",
@@ -50,7 +51,7 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
-                <link rel="icon" href="/favicon-180x180.png" sizes="180x180" />
+                <link rel="icon" href={`${SITE_URL}/favicon-180x180.png`} sizes="180x180" />
             </head>
             <body className={`${fontSerif.variable} ${fontSans.variable} antialiased`}>
                 <ThemeProvider

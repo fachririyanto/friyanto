@@ -1,12 +1,10 @@
 import type { MetadataRoute } from "next";
-
+import { SITE_URL } from "@/lib/config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://friyanto.vercel.app";
-
     return [
         {
-            url: `${baseUrl}/`,
+            url: `${SITE_URL}/`,
             lastModified: new Date().toISOString(),
             changeFrequency: "weekly",
             priority: 1.0,
