@@ -12,11 +12,11 @@ export function ICSCompute() {
             <div className="container">
                 <header className="flex flex-wrap gap-4 mb-6 md:flex-nowrap md:gap-0 md:mb-10 lg:mb-12">
                     <h2 className="w-full font-serif text-[40px] leading-[0.76] uppercase -tracking-[1px] md:border-r-4 md:border-double md:border-line-gray md:w-auto md:pr-10 md:text-[54px] lg:text-[64px]">
-                        Redpumpkin<br/>Work
+                        Redpumpkin<br/>Projects
                     </h2>
                     <div className="w-full md:pl-10 md:self-end">
                         <div className="md:max-w-[540px] md:text-lg">
-                            After almost 10 years working at <Link href="https://binus.ac.id" target="_blank" className="font-medium border-b border-black">BINUS University</Link>. Now I am working as Front End Developer at <Link href="https://www.icscompute.com" target="_blank" className="font-medium border-b border-black">ICS Compute</Link>, focusing on developing their Generative AI product, <Link href="https://redpumpkin.ai" target="_blank" className="font-medium border-b border-black">Redpumpkin.AI</Link>.
+                            Working as Front End Developer at <Link href="https://www.icscompute.com" target="_blank" className="font-medium border-b border-black">ICS Compute</Link>, focusing on developing their Generative AI product, <Link href="https://redpumpkin.ai" target="_blank" className="font-medium border-b border-black">Redpumpkin.AI</Link>, and customer projects.
                         </div>
                     </div>
                 </header>
@@ -31,8 +31,8 @@ export function ICSCompute() {
                 </div>
             </div>
             <div className="container !max-w-[840px]">
-                <p className="mt-6 leading-relaxed">
-                    Besides the list above, there are other projects that cannot be mentioned here because of NDA or it's still on PoC (Proof of Concept). I do some work such as create a web dashboard that integrate with API, build an embeded chat script to show it in customer website, create Redpumpkin UI Kit in Storybook, setup Keycloak for Redpumpkin Suite project, and build an OCR API to extract data from PDF into Excel using ModelArk from BytePlus (AI Engineer work).
+                <p className="my-6 leading-relaxed">
+                    Besides the list above, there are other projects that cannot be mentioned here because of NDA or it's still on PoC (Proof of Concept). I do some work such as create a web dashboard that integrate with API, build an embeded chat script to show it in customer website, create Redpumpkin UI Kit in Storybook, setup Keycloak for Redpumpkin Suite project, and build an OCR platform to extract data from PDF into Excel or integrated with customer SAP via OData (AI Engineer work).
                 </p>
             </div>
         </section>
